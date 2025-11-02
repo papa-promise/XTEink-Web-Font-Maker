@@ -1,6 +1,21 @@
 {
   "entries": [
     {
+      "id": "alegreya-regular-2025-11-01t17-02-49-330z",
+      "family": "Alegreya",
+      "style": "Regular",
+      "preview_text": "Zażółć gęślą jaźń 123\n\"über den großen\"\nthe quick brown fox",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/alegreya-regular-2025-11-01t17-02-49-330z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/alegreya-regular-2025-11-01t17-02-49-330z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/alegreya-regular-2025-11-01t17-02-49-330z/font_20x36.bin",
+      "submitter": {
+        "name": "Giobatta"
+      },
+      "timestamp": "2025-11-01T17:02:49.332Z",
+      "width": 20,
+      "height": 36
+    },
+    {
       "id": "bitcount-grid-single-cursive-regular-2025-10-30t14-30-19-294z",
       "family": "Bitcount Grid Single Cursive",
       "style": "Regular",
@@ -107,6 +122,28 @@
     }
   ],
   "tree": [
+    {
+      "family": "Alegreya",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "alegreya-regular-2025-11-01t17-02-49-330z",
+              "width": 20,
+              "height": 36,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/alegreya-regular-2025-11-01t17-02-49-330z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/alegreya-regular-2025-11-01t17-02-49-330z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/alegreya-regular-2025-11-01t17-02-49-330z/font_20x36.bin",
+              "submitter": {
+                "name": "Giobatta"
+              },
+              "timestamp": "2025-11-01T17:02:49.332Z"
+            }
+          ]
+        }
+      ]
+    },
     {
       "family": "Bitcount Grid Single Cursive",
       "types": [
