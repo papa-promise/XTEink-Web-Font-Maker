@@ -16,6 +16,21 @@
       "height": 24
     },
     {
+      "id": "bookerly-bold-2025-10-31t09-02-43-040z",
+      "family": "Bookerly",
+      "style": "Bold",
+      "preview_text": "Zażółć gęślą jaźń 123\n\"über den großen\"\nthe quick brown fox",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-bold-2025-10-31t09-02-43-040z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-bold-2025-10-31t09-02-43-040z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-bold-2025-10-31t09-02-43-040z/font_10x19.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2025-10-31T09:02:43.040Z",
+      "width": 10,
+      "height": 19
+    },
+    {
       "id": "bookerly-regular-2025-10-30t13-10-52-681z",
       "family": "Bookerly",
       "style": "Regular",
@@ -102,6 +117,23 @@
     {
       "family": "Bookerly",
       "types": [
+        {
+          "style": "Bold",
+          "sizes": [
+            {
+              "id": "bookerly-bold-2025-10-31t09-02-43-040z",
+              "width": 10,
+              "height": 19,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-bold-2025-10-31t09-02-43-040z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-bold-2025-10-31t09-02-43-040z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-bold-2025-10-31t09-02-43-040z/font_10x19.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2025-10-31T09:02:43.040Z"
+            }
+          ]
+        },
         {
           "style": "Regular",
           "sizes": [
