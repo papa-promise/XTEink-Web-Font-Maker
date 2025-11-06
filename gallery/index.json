@@ -61,6 +61,21 @@
       "height": 19
     },
     {
+      "id": "bookerly-regular-2025-11-05t05-21-57-619z",
+      "family": "Bookerly",
+      "style": "Regular",
+      "preview_text": "Phạm Thế Vinh\nNguyễn Minh Phú",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-11-05t05-21-57-619z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-11-05t05-21-57-619z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-11-05t05-21-57-619z/font_28x28.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2025-11-05T05:21:57.621Z",
+      "width": 28,
+      "height": 28
+    },
+    {
       "id": "bookerly-regular-2025-11-06t09-02-58-118z",
       "family": "Bookerly",
       "style": "Regular",
@@ -230,6 +245,18 @@
                 "name": "Lakafior"
               },
               "timestamp": "2025-10-30T13:10:52.681Z"
+            },
+            {
+              "id": "bookerly-regular-2025-11-05t05-21-57-619z",
+              "width": 28,
+              "height": 28,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-11-05t05-21-57-619z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-11-05t05-21-57-619z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-11-05t05-21-57-619z/font_28x28.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2025-11-05T05:21:57.621Z"
             },
             {
               "id": "bookerly-regular-2025-11-06t09-02-58-118z",
