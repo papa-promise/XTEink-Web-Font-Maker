@@ -61,6 +61,21 @@
       "height": 19
     },
     {
+      "id": "bookerly-regular-2025-11-06t09-02-58-118z",
+      "family": "Bookerly",
+      "style": "Regular",
+      "preview_text": "Zażółć gęślą jaźń 123\nññññññ ó á\n\"über den großen\"\nthe quick brown fox",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-11-06t09-02-58-118z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-11-06t09-02-58-118z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-11-06t09-02-58-118z/font_32x32.bin",
+      "submitter": {
+        "name": "bcct"
+      },
+      "timestamp": "2025-11-06T09:02:58.119Z",
+      "width": 32,
+      "height": 32
+    },
+    {
       "id": "kalpurush-regular-2025-11-04t07-54-33-908z",
       "family": "Kalpurush",
       "style": "Regular",
@@ -215,6 +230,18 @@
                 "name": "Lakafior"
               },
               "timestamp": "2025-10-30T13:10:52.681Z"
+            },
+            {
+              "id": "bookerly-regular-2025-11-06t09-02-58-118z",
+              "width": 32,
+              "height": 32,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-11-06t09-02-58-118z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-11-06t09-02-58-118z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-11-06t09-02-58-118z/font_32x32.bin",
+              "submitter": {
+                "name": "bcct"
+              },
+              "timestamp": "2025-11-06T09:02:58.119Z"
             }
           ]
         }
