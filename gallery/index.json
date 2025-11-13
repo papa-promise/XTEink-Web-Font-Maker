@@ -91,6 +91,21 @@
       "height": 32
     },
     {
+      "id": "chareink-regular-2025-11-12t15-39-40-109z",
+      "family": "ChareInk",
+      "style": "Regular",
+      "preview_text": "Zażółć gęślą jaźń 123\n\"über den großen\"\nthe quick brown fox",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/chareink-regular-2025-11-12t15-39-40-109z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/chareink-regular-2025-11-12t15-39-40-109z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/chareink-regular-2025-11-12t15-39-40-109z/font_28x28.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2025-11-12T15:39:40.109Z",
+      "width": 28,
+      "height": 28
+    },
+    {
       "id": "kalpurush-regular-2025-11-04t07-54-33-908z",
       "family": "Kalpurush",
       "style": "Regular",
@@ -269,6 +284,28 @@
                 "name": "bcct"
               },
               "timestamp": "2025-11-06T09:02:58.119Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "ChareInk",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "chareink-regular-2025-11-12t15-39-40-109z",
+              "width": 28,
+              "height": 28,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/chareink-regular-2025-11-12t15-39-40-109z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/chareink-regular-2025-11-12t15-39-40-109z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/chareink-regular-2025-11-12t15-39-40-109z/font_28x28.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2025-11-12T15:39:40.109Z"
             }
           ]
         }
