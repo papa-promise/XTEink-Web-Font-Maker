@@ -151,6 +151,21 @@
       "height": 21
     },
     {
+      "id": "literata-regular-2025-11-13t12-23-33-700z",
+      "family": "Literata",
+      "style": "Regular",
+      "preview_text": "Zażółć gęślą jaźń 123\n\"über den großen\"\nthe quick brown fox",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2025-11-13t12-23-33-700z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2025-11-13t12-23-33-700z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2025-11-13t12-23-33-700z/font_20x32.bin",
+      "submitter": {
+        "name": "x4-inker"
+      },
+      "timestamp": "2025-11-13T12:23:33.700Z",
+      "width": 20,
+      "height": 32
+    },
+    {
       "id": "opendyslexic-regular-2025-11-01t03-13-45-872z",
       "family": "OpenDyslexic",
       "style": "Regular",
@@ -367,6 +382,28 @@
                 "name": "Lakafior"
               },
               "timestamp": "2025-10-30T13:45:07.449Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Literata",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "literata-regular-2025-11-13t12-23-33-700z",
+              "width": 20,
+              "height": 32,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2025-11-13t12-23-33-700z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2025-11-13t12-23-33-700z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2025-11-13t12-23-33-700z/font_20x32.bin",
+              "submitter": {
+                "name": "x4-inker"
+              },
+              "timestamp": "2025-11-13T12:23:33.700Z"
             }
           ]
         }
