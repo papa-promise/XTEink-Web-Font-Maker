@@ -83,7 +83,98 @@ function getFreetypeLoadFlags() {
 
   return flags;
 }
+/**
+ * Measures optimal font dimensions using representative characters.
+ * Uses 'M' for width (typically widest Latin character) and 'Å' for height (tall with accent).
+ * @param {number} fontSize - The font size in pixels
+ * @returns {{width: number, height: number}} - The measured dimensions in pixels
+ */
+function measureOptimalFontDimensions(fontSize) {
+  if (!ft || !activeFont) {
+    return { width: fontSize, height: fontSize };
+  }
 
+  try {
+    ft.SetFont(activeFont.family_name, activeFont.style_name);
+    ft.SetPixelSize(0, fontSize);
+
+    // Scan representative wide and tall characters
+    // Wide: W, M, @, %, #, m, w
+    // Tall: Å, Ä, Ö, É, Ë, d, b, h, l
+    const testChars = [
+      0x0057,
+      0x004d,
+      0x0040,
+      0x0025,
+      0x0023,
+      0x006d,
+      0x0077, // W M @ % # m w
+      0x00c5,
+      0x00c4,
+      0x00d6,
+      0x00c9,
+      0x00cb, // Å Ä Ö É Ë
+      0x0064,
+      0x0062,
+      0x0068,
+      0x006c, // d b h l
+    ];
+
+    const loadFlags = ft.FT_LOAD_RENDER | ft.FT_LOAD_TARGET_MONO;
+    const glyphs = ft.LoadGlyphs(testChars, loadFlags);
+
+    let maxWidth = 0;
+    let maxHeight = 0;
+    let widestChar = "";
+    let tallestChar = "";
+
+    // Scan all glyphs and find MAX bitmap.width and MAX bitmap.rows
+    for (const [charCode, glyph] of glyphs.entries()) {
+      const char = String.fromCharCode(charCode);
+
+      // Check bitmap.width (actual rendered pixels)
+      if (glyph.bitmap && glyph.bitmap.width > 0) {
+        if (glyph.bitmap.width > maxWidth) {
+          maxWidth = glyph.bitmap.width;
+          widestChar = char;
+        }
+      }
+
+      // Check bitmap.rows (actual rendered height)
+      if (glyph.bitmap && glyph.bitmap.rows > 0) {
+        if (glyph.bitmap.rows > maxHeight) {
+          maxHeight = glyph.bitmap.rows;
+          tallestChar = char;
+        }
+      }
+    }
+
+    let measuredWidth = maxWidth;
+    let measuredHeight = maxHeight;
+    let widthChar = widestChar;
+    let heightChar = tallestChar;
+
+    // Apply C# minimum of 5 pixels and fallback to fontSize if needed
+    measuredWidth = Math.max(5, measuredWidth || fontSize);
+    measuredHeight = Math.max(5, measuredHeight || fontSize);
+
+    console.log(
+      `📏 Measured font dimensions at fontSize=${fontSize}px (scanned ${testChars.length} chars):`,
+      {
+        width: measuredWidth,
+        height: measuredHeight,
+        widestChar: widthChar || "fallback",
+        tallestChar: heightChar || "fallback",
+        scannedGlyphs: glyphs.size,
+      },
+    );
+
+    return { width: measuredWidth, height: measuredHeight };
+  } catch (e) {
+    console.warn("Failed to measure optimal font dimensions:", e);
+    return { width: fontSize, height: fontSize };
+  }
+}
 const optical_offsets = {
   // ============================================
   // OKRĄGŁE ZNAKI - silne przesunięcie w lewo
@@ -290,8 +381,10 @@ function renderGlyphToCanvas(char) {
   const shouldRenderBorder = document.getElementById("chkRenderBorder").checked;
   const useOpticalAlign = document.getElementById("chkOpticalAlign").checked;
 
-  const boxWidth = fontSize + charSpacing;
-  const boxHeight = fontSize + lineSpacing;
+  // Use measured width instead of fontSize for more accurate rendering
+  const dimensions = measureOptimalFontDimensions(fontSize);
+  const boxWidth = dimensions.width + charSpacing;
+  const boxHeight = dimensions.height + lineSpacing;
 
   onScreenCtx.fillStyle = "#fff";
   onScreenCtx.fillRect(0, 0, onScreenCanvas.width, onScreenCanvas.height);
@@ -416,8 +509,10 @@ function renderPreviewText() {
   const shouldRenderBorder = document.getElementById("chkRenderBorder").checked;
   const useOpticalAlign = document.getElementById("chkOpticalAlign").checked;
 
-  const boxWidth = fontSize + charSpacing;
-  const boxHeight = fontSize + lineSpacing;
+  // Use measured width instead of fontSize for more accurate rendering
+  const dimensions = measureOptimalFontDimensions(fontSize);
+  const boxWidth = dimensions.width + charSpacing;
+  const boxHeight = dimensions.height + lineSpacing;
 
   ctx.fillStyle = "#fff";
   ctx.fillRect(0, 0, canvas.width, canvas.height);
@@ -526,6 +621,17 @@ async function handleFontFileChange(e) {
     document.getElementById("fontInfo").innerText =
       `Loaded font: ${activeFont.family_name}, Style: ${activeFont.style_name}`;
 
+    // Measure optimal width and display recommendation
+    const currentFontSize =
+      parseInt(document.getElementById("fontSize").value, 10) || 28;
+    const currentCharSpacing =
+      parseInt(document.getElementById("charSpacing").value, 10) || 0;
+    const dimensions = measureOptimalFontDimensions(currentFontSize);
+    const finalWidth = dimensions.width + currentCharSpacing;
+    const finalHeight =
+      dimensions.height +
+        parseInt(document.getElementById("lineSpacing").value, 10) || 0;
+
     // create or update diagnostics box
     try {
       let di = document.getElementById("diagnostics");
@@ -538,12 +644,18 @@ async function handleFontFileChange(e) {
         di.innerHTML = `<div><strong>Diagnostics</strong></div>
                     <div>FreeType: <span class="ft">unknown</span></div>
                     <div>Active font: <span class="font">none</span></div>
+                    <div>Measured optimal dimensions: <span class="measured">unknown</span></div>
+                    <div>Final dimensions (w×h): <span class="final">unknown</span></div>
                     <div>Preview length: <span class="plen">0</span></div>
                     <div>Last render: <span class="last">never</span></div>`;
         document.getElementById("fontInfo").appendChild(di);
       }
       di.querySelector(".font").textContent =
         `${activeFont.family_name} — ${activeFont.style_name}`;
+      di.querySelector(".measured").textContent =
+        `${dimensions.width}px × ${dimensions.height}px`;
+      di.querySelector(".final").textContent =
+        `${finalWidth}px × ${finalHeight}px (${dimensions.width}+${currentCharSpacing} × ${dimensions.height}+${parseInt(document.getElementById("lineSpacing").value, 10) || 0})`;
       const ftEl = di.querySelector(".ft");
       if (ftEl && ft) ftEl.textContent = "Loaded";
     } catch (e) {
@@ -581,8 +693,10 @@ async function convertFontToBin() {
   const shouldRenderBorder = document.getElementById("chkRenderBorder").checked;
   const useOpticalAlign = document.getElementById("chkOpticalAlign").checked;
 
-  const width = fontSize + charSpacing;
-  const height = fontSize + lineSpacing;
+  // Measure optimal width based on actual character rendering (like C# does)
+  const dimensions = measureOptimalFontDimensions(fontSize);
+  const width = dimensions.width + charSpacing;
+  const height = dimensions.height + lineSpacing;
 
   if (width <= 0 || height <= 0) {
     alert("Resulting width and height must be positive.");
@@ -901,6 +1015,40 @@ function updateControlStates() {
     : 0.5;
 }
 
+/**
+ * Updates the measured width display in diagnostics when fontSize changes
+ */
+function updateMeasuredWidth() {
+  if (!activeFont) return;
+
+  const currentFontSize =
+    parseInt(document.getElementById("fontSize").value, 10) || 28;
+  const currentCharSpacing =
+    parseInt(document.getElementById("charSpacing").value, 10) || 0;
+  const dimensions = measureOptimalFontDimensions(currentFontSize);
+  const finalWidth = dimensions.width + currentCharSpacing;
+  const finalHeight =
+    dimensions.height +
+    (parseInt(document.getElementById("lineSpacing").value, 10) || 0);
+
+  try {
+    const di = document.getElementById("diagnostics");
+    if (di) {
+      const measuredEl = di.querySelector(".measured");
+      const finalEl = di.querySelector(".final");
+
+      if (measuredEl) {
+        measuredEl.textContent = `${dimensions.width}px × ${dimensions.height}px`;
+      }
+      if (finalEl) {
+        finalEl.textContent = `${finalWidth}px × ${finalHeight}px (${dimensions.width}+${currentCharSpacing} × ${dimensions.height}+${parseInt(document.getElementById("lineSpacing").value, 10) || 0})`;
+      }
+    }
+  } catch (e) {
+    console.warn("Failed to update measured width", e);
+  }
+}
+
 // --- Event Listeners ---
 document
   .getElementById("fontFile")
@@ -964,6 +1112,11 @@ inputs.forEach((id) => {
       updateControlStates();
       renderPreviewText();
       renderGlyphToCanvas("A");
+
+      // Update measured width when fontSize or charSpacing changes
+      if (id === "fontSize" || id === "charSpacing") {
+        updateMeasuredWidth();
+      }
     });
   }
 });
