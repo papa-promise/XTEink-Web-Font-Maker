@@ -104,6 +104,21 @@
       "timestamp": "2025-11-14T09:46:19.838Z",
       "width": 25,
       "height": 29
+    },
+    {
+      "id": "kalpana-unicode-kalpana-unicode-2025-11-14t09-49-16-811z",
+      "family": "Kalpana Unicode",
+      "style": "Kalpana Unicode",
+      "preview_text": "লিখে দেখুন...লিখে দেখুন...লিখে দেখুন...লিখে দেখুন...লিখে দেখুন...লিখে দেখুন...লিখে দেখুন...লিখে দেখুন...লিখে দেখুন...লিখে দেখুন...লিখে দেখুন...লিখে দেখুন...লিখে দেখুন...লিখে দেখুন...লিখে দেখুন...লিখে দেখুন...লিখে দেখুন...লিখে দেখুন...লিখে দেখুন...লিখে দেখুন...লিখে দেখুন...",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/kalpana-unicode-kalpana-unicode-2025-11-14t09-49-16-811z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/kalpana-unicode-kalpana-unicode-2025-11-14t09-49-16-811z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/kalpana-unicode-kalpana-unicode-2025-11-14t09-49-16-811z/font_17x39.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2025-11-14T09:49:16.811Z",
+      "width": 17,
+      "height": 39
     }
   ],
   "tree": [
@@ -241,6 +256,28 @@
                 "name": "Anonymous"
               },
               "timestamp": "2025-11-14T09:46:19.838Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Kalpana Unicode",
+      "types": [
+        {
+          "style": "Kalpana Unicode",
+          "sizes": [
+            {
+              "id": "kalpana-unicode-kalpana-unicode-2025-11-14t09-49-16-811z",
+              "width": 17,
+              "height": 39,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/kalpana-unicode-kalpana-unicode-2025-11-14t09-49-16-811z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/kalpana-unicode-kalpana-unicode-2025-11-14t09-49-16-811z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/kalpana-unicode-kalpana-unicode-2025-11-14t09-49-16-811z/font_17x39.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2025-11-14T09:49:16.811Z"
             }
           ]
         }
