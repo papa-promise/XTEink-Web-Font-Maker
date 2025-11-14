@@ -541,7 +541,12 @@ function renderPreviewText() {
       const charCode = line.charCodeAt(i);
       const char = line[i];
 
-      if (charX + boxWidth > canvas.width) break;
+      // Auto word wrap: if character doesn't fit, move to next line
+      if (charX + boxWidth > canvas.width) {
+        charX = 0;
+        lineY += boxHeight;
+        if (lineY - boxHeight > canvas.height) break;
+      }
 
       if (glyphs.has(charCode)) {
         if (shouldRenderBorder) {
@@ -601,6 +606,221 @@ function renderPreviewText() {
       }
     }
   }
+}
+
+/**
+ * Adds pHYs chunk to PNG to set DPI metadata
+ * PNG without pHYs defaults to 72 DPI, causing incorrect physical size
+ */
+function addDpiToPng(dataURL, dpi) {
+  try {
+    // Convert data URL to binary
+    const base64 = dataURL.split(",")[1];
+    const binary = atob(base64);
+    const bytes = new Uint8Array(binary.length);
+    for (let i = 0; i < binary.length; i++) {
+      bytes[i] = binary.charCodeAt(i);
+    }
+
+    // Calculate pixels per meter from DPI
+    // 1 inch = 0.0254 meters, so pixels/meter = DPI / 0.0254
+    const pixelsPerMeter = Math.round(dpi / 0.0254);
+
+    // Create pHYs chunk
+    // Format: [length(4)] [type(4)] [data(9)] [crc(4)]
+    const phys = new Uint8Array(4 + 4 + 9 + 4);
+
+    // Length of data (9 bytes)
+    phys[0] = 0;
+    phys[1] = 0;
+    phys[2] = 0;
+    phys[3] = 9;
+
+    // Chunk type: "pHYs"
+    phys[4] = 112; // p
+    phys[5] = 72; // H
+    phys[6] = 89; // Y
+    phys[7] = 115; // s
+
+    // Pixels per unit, X axis (4 bytes, big-endian)
+    phys[8] = (pixelsPerMeter >>> 24) & 0xff;
+    phys[9] = (pixelsPerMeter >>> 16) & 0xff;
+    phys[10] = (pixelsPerMeter >>> 8) & 0xff;
+    phys[11] = pixelsPerMeter & 0xff;
+
+    // Pixels per unit, Y axis (4 bytes, big-endian)
+    phys[12] = (pixelsPerMeter >>> 24) & 0xff;
+    phys[13] = (pixelsPerMeter >>> 16) & 0xff;
+    phys[14] = (pixelsPerMeter >>> 8) & 0xff;
+    phys[15] = pixelsPerMeter & 0xff;
+
+    // Unit specifier: 1 = meter
+    phys[16] = 1;
+
+    // Calculate CRC for chunk type + data
+    const crcData = phys.slice(4, 17);
+    const crc = calculateCRC(crcData);
+    phys[17] = (crc >>> 24) & 0xff;
+    phys[18] = (crc >>> 16) & 0xff;
+    phys[19] = (crc >>> 8) & 0xff;
+    phys[20] = crc & 0xff;
+
+    // Find where to insert pHYs (after IHDR chunk)
+    // PNG structure: signature(8) + IHDR_length(4) + "IHDR"(4) + IHDR_data(13) + IHDR_crc(4) = 33 bytes
+    let insertPos = 8 + 4 + 4 + 13 + 4; // 33 bytes - right after IHDR chunk
+
+    // Create new PNG with pHYs chunk
+    const newPng = new Uint8Array(bytes.length + phys.length);
+    newPng.set(bytes.slice(0, insertPos), 0);
+    newPng.set(phys, insertPos);
+    newPng.set(bytes.slice(insertPos), insertPos + phys.length);
+
+    // Convert back to base64
+    let binaryString = "";
+    for (let i = 0; i < newPng.length; i++) {
+      binaryString += String.fromCharCode(newPng[i]);
+    }
+    return "data:image/png;base64," + btoa(binaryString);
+  } catch (error) {
+    console.error("Error adding DPI to PNG:", error);
+    // Return original if error occurs
+    return dataURL;
+  }
+}
+
+/**
+ * CRC-32 calculation for PNG chunks
+ */
+function calculateCRC(data) {
+  let crc = 0xffffffff;
+  for (let i = 0; i < data.length; i++) {
+    crc ^= data[i];
+    for (let j = 0; j < 8; j++) {
+      crc = crc & 1 ? (crc >>> 1) ^ 0xedb88320 : crc >>> 1;
+    }
+  }
+  return (crc ^ 0xffffffff) >>> 0;
+}
+
+/**
+ * Renders live preview on canvas at e-reader resolution (480x800px @ 220 PPI)
+ * Canvas is then scaled via CSS transform for correct physical size display
+ */
+function renderRealSizePreview() {
+  const canvas = document.getElementById("realSizeCanvas");
+  if (!canvas || !activeFont) return;
+
+  const ctx = canvas.getContext("2d");
+
+  const previewText = document.getElementById("previewText").value;
+  const fontSize =
+    parseInt(document.getElementById("fontSize").value, 10) || 28;
+  const charSpacing =
+    parseInt(document.getElementById("charSpacing").value, 10) || 0;
+  const lineSpacing =
+    parseInt(document.getElementById("lineSpacing").value, 10) || 0;
+  const threshold =
+    parseInt(document.getElementById("lightnessThreshold").value, 10) || 127;
+  const shouldRenderBorder = document.getElementById("chkRenderBorder").checked;
+  const useOpticalAlign = document.getElementById("chkOpticalAlign").checked;
+
+  // Use measured width instead of fontSize for more accurate rendering
+  const dimensions = measureOptimalFontDimensions(fontSize);
+  const boxWidth = dimensions.width + charSpacing;
+  const boxHeight = dimensions.height + lineSpacing;
+
+  // Clear canvas with white background
+  ctx.fillStyle = "#fff";
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+  if (!ft || !activeFont || boxHeight <= 0) return;
+
+  ft.SetFont(activeFont.family_name, activeFont.style_name);
+  ft.SetPixelSize(0, fontSize);
+
+  const loadFlags = getFreetypeLoadFlags();
+  const charCodes = [
+    ...new Set(previewText.split("").map((c) => c.charCodeAt(0))),
+  ];
+  const glyphs = ft.LoadGlyphs(charCodes, loadFlags);
+
+  const lines = previewText.split(/\r?\n/);
+  let lineY = 0;
+
+  for (let lineIdx = 0; lineIdx < lines.length; lineIdx++) {
+    const line = lines[lineIdx];
+    let charX = 0;
+    lineY += boxHeight;
+
+    if (lineY - boxHeight > canvas.height) break;
+
+    for (let i = 0; i < line.length; i++) {
+      const charCode = line.charCodeAt(i);
+      const char = line[i];
+
+      // Auto word wrap: if character doesn't fit, move to next line
+      if (charX + boxWidth > canvas.width) {
+        charX = 0;
+        lineY += boxHeight;
+        if (lineY - boxHeight > canvas.height) break;
+      }
+
+      if (glyphs.has(charCode)) {
+        if (shouldRenderBorder) {
+          ctx.strokeStyle = "#000";
+          ctx.lineWidth = 1;
+          ctx.strokeRect(
+            charX + 0.5,
+            lineY - boxHeight + 0.5,
+            boxWidth - 1,
+            boxHeight - 1,
+          );
+        }
+
+        const glyph = glyphs.get(charCode);
+        const bitmap = glyph.bitmap;
+
+        if (
+          bitmap.width > 0 &&
+          bitmap.rows > 0 &&
+          bitmap.imagedata &&
+          !isWhitespaceOrInvisible(charCode)
+        ) {
+          let dx = charX + Math.floor((boxWidth - bitmap.width) / 2);
+
+          if (charCode > 255 && charSpacing !== 0) {
+            dx += Math.floor(charSpacing / 2);
+          }
+
+          if (useOpticalAlign) {
+            dx = charX + getOpticalDx(char, bitmap.width, boxWidth, true);
+          }
+
+          const baseline = lineY - boxHeight + Math.round(boxHeight * 0.75);
+          let dy = baseline - glyph.bitmap_top;
+
+          if (lineSpacing !== 0) {
+            dy += Math.floor(lineSpacing / 2);
+          }
+
+          const sourceData = bitmap.imagedata.data;
+          ctx.fillStyle = "#000";
+          for (let y = 0; y < bitmap.rows; y++) {
+            for (let x = 0; x < bitmap.width; x++) {
+              const j = (y * bitmap.width + x) * 4;
+              if (sourceData[j + 3] > threshold) {
+                ctx.fillRect(dx + x, dy + y, 1, 1);
+              }
+            }
+          }
+        }
+        charX += boxWidth;
+      }
+    }
+  }
+
+  // Apply scale transform (will be set by slider)
+  updateDisplayScale();
 }
 
 /**
@@ -665,6 +885,7 @@ async function handleFontFileChange(e) {
     updateControlStates();
     renderGlyphToCanvas("A");
     renderPreviewText();
+    renderRealSizePreview();
   } catch (err) {
     document.getElementById("fontInfo").innerText =
       "Failed to parse font. " + (err && err.message ? err.message : err);
@@ -862,8 +1083,8 @@ async function saveToServer() {
   }
   const { blob, width, height } = res;
 
-  status.textContent = "Preparing preview...";
-  const previewCanvas = document.getElementById("previewCanvas");
+  status.textContent = "Preparing e-reader screen preview...";
+  const previewCanvas = document.getElementById("realSizeCanvas");
   const previewBlob = await new Promise((r) =>
     previewCanvas.toBlob(r, "image/png"),
   );
@@ -902,7 +1123,7 @@ async function saveToServer() {
     thumbCanvas.toBlob(r, "image/png"),
   );
 
-  status.textContent = "Encoding...";
+  status.textContent = "Encoding e-reader preview...";
   const binBase64 = await readBlobAsBase64(blob);
   const previewBase64 = await readBlobAsBase64(previewBlob);
   const thumbBase64 = await readBlobAsBase64(thumbBlob);
@@ -1111,6 +1332,7 @@ inputs.forEach((id) => {
     element.addEventListener("input", () => {
       updateControlStates();
       renderPreviewText();
+      renderRealSizePreview();
       renderGlyphToCanvas("A");
 
       // Update measured width when fontSize or charSpacing changes
@@ -1126,6 +1348,7 @@ if (previewEl) {
   previewEl.addEventListener("input", () => {
     updateControlStates();
     renderPreviewText();
+    renderRealSizePreview();
     renderGlyphToCanvas("A");
   });
   // initialize counter
@@ -1138,10 +1361,163 @@ document.getElementById("lightnessThreshold").addEventListener("input", (e) => {
 });
 
 // Resize text preview on window resize
-window.addEventListener("resize", renderPreviewText);
+window.addEventListener("resize", () => {
+  renderPreviewText();
+  renderRealSizePreview();
+});
+
+// Export preview as PNG button
+document.getElementById("exportPreviewBtn")?.addEventListener("click", () => {
+  const canvas = document.getElementById("realSizeCanvas");
+  if (!canvas) return;
+
+  const dataURL = canvas.toDataURL("image/png");
+  const fontSize = document.getElementById("fontSize").value || "28";
+  const fontName = activeFont
+    ? `${activeFont.family_name}-${activeFont.style_name}`
+    : "font";
+  const filename = `${slugify(fontName)}-${fontSize}px-preview-480x800.png`;
+
+  const a = document.createElement("a");
+  a.href = dataURL;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+
+  const statusEl = document.getElementById("calibrationStatus");
+  if (statusEl) {
+    const originalText = statusEl.textContent;
+    statusEl.textContent = `✓ Exported: ${filename}`;
+    statusEl.style.color = "#4caf50";
+    statusEl.style.fontWeight = "bold";
+
+    setTimeout(() => {
+      statusEl.textContent = originalText;
+      statusEl.style.color = "#888";
+      statusEl.style.fontWeight = "normal";
+    }, 3000);
+  }
+});
+
+// Auto-detect monitor DPI and suggest scale
+function autoDetectScale() {
+  if (!displayScaleSlider) return;
+
+  // Check if user has previously calibrated their display
+  const savedScale = localStorage.getItem("ereaderPreviewScale");
+
+  if (savedScale) {
+    // Use saved calibration
+    const scale = parseInt(savedScale, 10);
+    displayScaleSlider.value = scale.toString();
+
+    const statusEl = document.getElementById("calibrationStatus");
+    if (statusEl) {
+      statusEl.innerHTML = `✓ <strong>Using your saved calibration: ${scale}%</strong> - adjust slider if needed`;
+      statusEl.style.color = "#4caf50";
+    }
+    return;
+  }
+
+  // Try to detect actual screen DPI
+  const dpr = window.devicePixelRatio || 1;
+
+  let suggestedScale = 100;
+
+  if (dpr >= 2) {
+    // Retina/HiDPI display - suggest larger scale
+    suggestedScale = Math.round(100 * 1.4); // 140%
+  } else if (dpr > 1 && dpr < 2) {
+    suggestedScale = Math.round(100 * (1 + (dpr - 1) * 0.8)); // Interpolate
+  }
+
+  displayScaleSlider.value = suggestedScale.toString();
+
+  const statusEl = document.getElementById("calibrationStatus");
+  if (statusEl && suggestedScale !== 100) {
+    statusEl.innerHTML = `💡 Scale auto-set to ${suggestedScale}% for your display - measure and adjust with slider, then save!`;
+    statusEl.style.color = "#ff9800";
+  }
+}
+
+// Display scale slider for real-size preview
+const displayScaleSlider = document.getElementById("displayScale");
+const displayScaleValue = document.getElementById("displayScaleValue");
+const realSizeCanvas = document.getElementById("realSizeCanvas");
+
+function updateDisplayScale() {
+  if (!displayScaleSlider || !realSizeCanvas) return;
+
+  const scale = parseInt(displayScaleSlider.value, 10) / 100;
+
+  // Apply scale to canvas display
+  realSizeCanvas.style.transform = `scale(${scale})`;
+  realSizeCanvas.style.transformOrigin = "top left";
+
+  if (displayScaleValue) {
+    displayScaleValue.textContent = (scale * 100).toFixed(0) + "%";
+  }
+
+  // Update info text
+  const infoEl = document.getElementById("previewDimensionsInfo");
+  if (infoEl) {
+    const actualWidth = Math.round(55 * scale * 10) / 10;
+    const actualHeight = Math.round(93 * scale * 10) / 10;
+    infoEl.textContent = `Current display size: ${actualWidth}mm × ${actualHeight}mm (adjust slider to reach exactly 55mm × 93mm)`;
+  }
+}
+
+displayScaleSlider?.addEventListener("input", updateDisplayScale);
+
+// Save Calibration button
+document.getElementById("saveCalibration")?.addEventListener("click", () => {
+  if (!displayScaleSlider) return;
+
+  const scalePercent = parseInt(displayScaleSlider.value, 10);
+  localStorage.setItem("ereaderPreviewScale", scalePercent.toString());
+
+  const statusEl = document.getElementById("calibrationStatus");
+  if (statusEl) {
+    statusEl.innerHTML = `<strong>✓ Calibration saved! (${scalePercent}%)</strong> This scale will be used automatically next time.`;
+    statusEl.style.color = "#4caf50";
+    statusEl.style.fontWeight = "bold";
+
+    // Reset style after 5 seconds
+    setTimeout(() => {
+      if (statusEl) {
+        statusEl.innerHTML = `✓ <strong>Using your saved calibration: ${scalePercent}%</strong>`;
+        statusEl.style.fontWeight = "normal";
+      }
+    }, 5000);
+  }
+});
+
+// Reset button - clears saved calibration and uses auto-detect
+document.getElementById("resetDisplayScale")?.addEventListener("click", () => {
+  if (displayScaleSlider) {
+    // Clear saved calibration
+    localStorage.removeItem("ereaderPreviewScale");
+
+    // Re-run auto-detection
+    autoDetectScale();
+    updateDisplayScale();
+
+    const statusEl = document.getElementById("calibrationStatus");
+    if (statusEl) {
+      statusEl.innerHTML =
+        "💡 Calibration reset. Auto-detection applied - measure with ruler and adjust slider, then save!";
+      statusEl.style.color = "#ff9800";
+    }
+  }
+});
 
 // Set initial state on load
 updateControlStates();
+
+// Initialize real-size preview with auto-detect
+autoDetectScale();
+updateDisplayScale();
 
 // --- Developer helper: verify bin glyphs match preview ---
 // Usage (in console): verifyBinMatchesPreview(['A','a','0']);

@@ -265,6 +265,191 @@ the quick brown fox</textarea
                             <canvas id="previewCanvas" height="128"></canvas>
                         </div>
                     </div>
+
+                    <div class="control-group" style="margin-top: 20px">
+                        <h3>
+                            📱 Real-Size E-Reader Preview (4.3" screen, 800×480
+                            @ 220 PPI)
+                        </h3>
+                        <p style="margin-bottom: 12px; color: #666">
+                            Live 1:1 preview at exactly 55mm × 93mm physical
+                            size!
+                            <br />
+                            ✨
+                            <strong
+                                >This preview is used for gallery
+                                submissions</strong
+                            >
+                            - calibrate once to see exactly how your font looks
+                            on the e-reader.
+                            <br />
+                            💡 Use the scale slider to match your screen, then
+                            save calibration.
+                        </p>
+
+                        <div
+                            id="previewScaleControl"
+                            style="
+                                margin-bottom: 15px;
+                                padding: 12px;
+                                background: #f9f9f9;
+                                border-radius: 6px;
+                            "
+                        >
+                            <label
+                                for="displayScale"
+                                style="font-weight: bold; margin-right: 10px"
+                            >
+                                Display Scale (adjust to match 55mm width):
+                            </label>
+                            <input
+                                type="range"
+                                id="displayScale"
+                                min="50"
+                                max="200"
+                                value="100"
+                                style="
+                                    width: 300px;
+                                    vertical-align: middle;
+                                    margin-right: 10px;
+                                "
+                            />
+                            <span
+                                id="displayScaleValue"
+                                style="
+                                    font-weight: bold;
+                                    min-width: 50px;
+                                    display: inline-block;
+                                "
+                                >100%</span
+                            >
+                            <button
+                                id="saveCalibration"
+                                style="
+                                    width: auto;
+                                    padding: 4px 10px;
+                                    font-size: 0.9em;
+                                    background-color: #4caf50;
+                                    margin-right: 8px;
+                                "
+                            >
+                                ✓ Save Calibration
+                            </button>
+                            <button
+                                id="resetDisplayScale"
+                                style="
+                                    width: auto;
+                                    padding: 4px 10px;
+                                    font-size: 0.9em;
+                                    background-color: var(--secondary-color);
+                                "
+                            >
+                                Reset to Auto
+                            </button>
+                            <br />
+                            <small style="color: #666"
+                                >📱 Place your e-reader on the screen - adjust
+                                slider until canvas matches perfectly!</small
+                            >
+                            <br />
+                            <small id="calibrationStatus" style="color: #888"
+                                >💡 Once calibrated, click "Save Calibration" to
+                                remember this setting for next time!</small
+                            >
+                        </div>
+
+                        <div
+                            id="realSizePreviewContainer"
+                            style="margin-top: 15px"
+                        >
+                            <div
+                                style="
+                                    background: #f0f0f0;
+                                    padding: 15px;
+                                    border-radius: 8px;
+                                    display: inline-block;
+                                "
+                            >
+                                <div
+                                    style="
+                                        margin-bottom: 10px;
+                                        font-weight: bold;
+                                        color: #333;
+                                    "
+                                >
+                                    Live Preview (480 × 800 px @ 220 PPI)
+                                </div>
+                                <div
+                                    style="
+                                        border: 2px solid #333;
+                                        display: inline-block;
+                                        background: white;
+                                        overflow: hidden;
+                                    "
+                                    id="canvasWrapper"
+                                >
+                                    <canvas
+                                        id="realSizeCanvas"
+                                        width="480"
+                                        height="800"
+                                        style="display: block"
+                                    ></canvas>
+                                </div>
+                                <div style="margin-top: 10px">
+                                    <button
+                                        id="exportPreviewBtn"
+                                        style="
+                                            width: auto;
+                                            padding: 8px 16px;
+                                            background-color: #007bff;
+                                        "
+                                    >
+                                        💾 Export as PNG
+                                    </button>
+                                </div>
+                                <div
+                                    style="
+                                        margin-top: 8px;
+                                        padding: 8px;
+                                        background: #e8f5e9;
+                                        border-left: 3px solid #4caf50;
+                                        border-radius: 4px;
+                                        font-size: 0.85em;
+                                    "
+                                >
+                                    <strong>✓ Live 1:1 Preview:</strong>
+                                    <br />
+                                    <small id="previewDimensionsInfo"
+                                        >Canvas updates automatically as you
+                                        change font settings.</small
+                                    >
+                                    <br />
+                                    <small style="color: #4caf50"
+                                        >📸 <strong>Note:</strong> This preview
+                                        is used for gallery submissions - users
+                                        will see exactly how your font looks on
+                                        the e-reader screen!</small
+                                    >
+                                    <br />
+                                    <small
+                                        ><strong>Physical size:</strong> Should
+                                        be exactly 55mm × 93mm (2.17" × 3.66")
+                                        when scale is adjusted correctly.</small
+                                    >
+                                    <br />
+                                    <small
+                                        >📱
+                                        <strong>How to calibrate:</strong> Place
+                                        your e-reader directly on the screen
+                                        over the canvas. Adjust the scale slider
+                                        until the canvas edges align perfectly
+                                        with your e-reader screen. Save
+                                        calibration and you're done!</small
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="card">
