@@ -106,6 +106,21 @@
       "height": 29
     },
     {
+      "id": "fantasque-sans-mono-bold-2025-11-14t19-35-30-463z",
+      "family": "Fantasque Sans Mono",
+      "style": "Bold",
+      "preview_text": "Да, внучек, дедушка у тебя очень смелый. И когда он был маленьким, то никогда не плакал. Ну-ка вытрем слезы и расскажем, кто тебя напугал?\nЛягушка? Большая? Прыгнула?\nНет, лягушек не надо бояться.\nВот когда я был маленьким, то все чего-нибудь боялись. Даже дедушка немного боялся. Но не плакал! Расскажу, конечно же, расскажу…\nБольше всего мы боялись друг друга. Например, что люди с черной и желтой кожей так размножатся, что прогонят всех людей с белой кожей. Смешно, правда? Какая разница, как",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/fantasque-sans-mono-bold-2025-11-14t19-35-30-463z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/fantasque-sans-mono-bold-2025-11-14t19-35-30-463z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/fantasque-sans-mono-bold-2025-11-14t19-35-30-463z/font_18x31.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2025-11-14T19:35:30.463Z",
+      "width": 18,
+      "height": 31
+    },
+    {
       "id": "kalpana-unicode-kalpana-unicode-2025-11-14t09-49-16-811z",
       "family": "Kalpana Unicode",
       "style": "Kalpana Unicode",
@@ -376,6 +391,28 @@
                 "name": "Anonymous"
               },
               "timestamp": "2025-11-14T09:46:19.838Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Fantasque Sans Mono",
+      "types": [
+        {
+          "style": "Bold",
+          "sizes": [
+            {
+              "id": "fantasque-sans-mono-bold-2025-11-14t19-35-30-463z",
+              "width": 18,
+              "height": 31,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/fantasque-sans-mono-bold-2025-11-14t19-35-30-463z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/fantasque-sans-mono-bold-2025-11-14t19-35-30-463z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/fantasque-sans-mono-bold-2025-11-14t19-35-30-463z/font_18x31.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2025-11-14T19:35:30.463Z"
             }
           ]
         }
