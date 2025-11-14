@@ -196,6 +196,21 @@
       "height": 38
     },
     {
+      "id": "opendyslexicalta-regular-2025-11-14t14-33-38-517z",
+      "family": "OpenDyslexicAlta",
+      "style": "Regular",
+      "preview_text": "sadasdasasda udziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.What is Lorem Ipsum?\nLorem Ipsum iW",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/opendyslexicalta-regular-2025-11-14t14-33-38-517z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/opendyslexicalta-regular-2025-11-14t14-33-38-517z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/opendyslexicalta-regular-2025-11-14t14-33-38-517z/font_26x28.bin",
+      "submitter": {
+        "name": "Verdana"
+      },
+      "timestamp": "2025-11-14T14:33:38.517Z",
+      "width": 26,
+      "height": 28
+    },
+    {
       "id": "salma-pro-medium-narrow-2025-11-14t14-32-37-601z",
       "family": "Salma Pro",
       "style": "Medium Narrow",
@@ -493,6 +508,28 @@
                 "name": "Anonymous"
               },
               "timestamp": "2025-11-14T09:56:49.889Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "OpenDyslexicAlta",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "opendyslexicalta-regular-2025-11-14t14-33-38-517z",
+              "width": 26,
+              "height": 28,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/opendyslexicalta-regular-2025-11-14t14-33-38-517z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/opendyslexicalta-regular-2025-11-14t14-33-38-517z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/opendyslexicalta-regular-2025-11-14t14-33-38-517z/font_26x28.bin",
+              "submitter": {
+                "name": "Verdana"
+              },
+              "timestamp": "2025-11-14T14:33:38.517Z"
             }
           ]
         }
