@@ -83,6 +83,48 @@ function getFreetypeLoadFlags() {
 
   return flags;
 }
+
+/**
+ * Determines if a pixel from the FreeType bitmap should be rendered as black.
+ * Checks both RGB luminance and alpha channel for better Cyrillic and complex glyph support.
+ * @param {Uint8ClampedArray} data - The RGBA pixel data
+ * @param {number} index - The starting index of the pixel (R channel)
+ * @param {number} threshold - The threshold value (0-255)
+ * @returns {boolean} - True if pixel should be rendered black
+ */
+function shouldRenderPixel(data, index, threshold) {
+  const r = data[index];
+  const g = data[index + 1];
+  const b = data[index + 2];
+  const a = data[index + 3];
+
+  // For FreeType bitmaps, the alpha channel typically contains the coverage/intensity
+  // However, for some fonts (especially Cyrillic), we need to also check RGB values
+  //
+  // Strategy:
+  // 1. Primary check: alpha channel (most fonts put glyph data here)
+  // 2. Fallback check: if alpha is moderate, also check if RGB is dark
+  //    This helps with fonts where glyph data is in RGB channels
+
+  // Check alpha first (standard FreeType antialiased glyphs)
+  if (a > threshold) {
+    return true;
+  }
+
+  // Calculate luminance for RGB check (perceived brightness)
+  // Using standard luminance formula: 0.299*R + 0.587*G + 0.114*B
+  const luminance = 0.299 * r + 0.587 * g + 0.114 * b;
+
+  // Fallback: if pixel has some alpha and is dark, render it
+  // This catches Cyrillic and other glyphs where data is in RGB
+  // Use a lower alpha threshold (threshold/4) to be more permissive
+  if (a > threshold / 4 && luminance < 255 - threshold) {
+    return true;
+  }
+
+  return false;
+}
+
 /**
  * Measures optimal font dimensions using representative characters.
  * Uses 'M' for width (typically widest Latin character) and 'Å' for height (tall with accent).
@@ -448,7 +490,7 @@ function renderGlyphToCanvas(char) {
         for (let y = 0; y < bitmap.rows; y++) {
           for (let x = 0; x < bitmap.width; x++) {
             const i = (y * bitmap.width + x) * 4;
-            if (sourceData[i + 3] > threshold) {
+            if (shouldRenderPixel(sourceData, i, threshold)) {
               ctx.fillRect(dx + x, dy + y, 1, 1);
             }
           }
@@ -596,7 +638,7 @@ function renderPreviewText() {
           for (let y = 0; y < bitmap.rows; y++) {
             for (let x = 0; x < bitmap.width; x++) {
               const j = (y * bitmap.width + x) * 4;
-              if (sourceData[j + 3] > threshold) {
+              if (shouldRenderPixel(sourceData, j, threshold)) {
                 ctx.fillRect(dx + x, dy + y, 1, 1);
               }
             }
@@ -808,7 +850,7 @@ function renderRealSizePreview() {
           for (let y = 0; y < bitmap.rows; y++) {
             for (let x = 0; x < bitmap.width; x++) {
               const j = (y * bitmap.width + x) * 4;
-              if (sourceData[j + 3] > threshold) {
+              if (shouldRenderPixel(sourceData, j, threshold)) {
                 ctx.fillRect(dx + x, dy + y, 1, 1);
               }
             }
@@ -994,7 +1036,7 @@ async function convertFontToBin() {
           for (let y = 0; y < glyph.bitmap.rows; y++) {
             for (let x = 0; x < glyph.bitmap.width; x++) {
               const pixelIndex = (y * glyph.bitmap.width + x) * 4;
-              if (sourceData[pixelIndex + 3] > threshold) {
+              if (shouldRenderPixel(sourceData, pixelIndex, threshold)) {
                 ctx.fillRect(dx + x, dy + y, 1, 1);
               }
             }
@@ -1579,7 +1621,7 @@ window.verifyBinMatchesPreview = async function (
         for (let y = 0; y < bitmap.rows; y++) {
           for (let x = 0; x < bitmap.width; x++) {
             const i = (y * bitmap.width + x) * 4;
-            if (sourceData[i + 3] > threshold)
+            if (shouldRenderPixel(sourceData, i, threshold))
               ctx.fillRect(dx + x, dy + y, 1, 1);
           }
         }
