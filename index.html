@@ -87,7 +87,6 @@
             <header>
                 <div class="header-top">
                     <h1>XTEink Web Font Maker</h1>
-
                     <nav class="top-nav">
                         <div class="nav-group">
                             <a
@@ -108,363 +107,271 @@
                         </div>
                     </nav>
                 </div>
-                <p>
-                    A web-based tool to convert fonts to the XTEink binary
-                    format.
-                </p>
             </header>
 
             <main>
-                <div class="card">
-                    <h2>1. Select Font and Settings</h2>
-                    <div class="control-group">
-                        <label for="fontFile">Font File (.ttf, .otf):</label>
-                        <input type="file" id="fontFile" accept=".ttf,.otf" />
-                    </div>
-                    <div class="control-group-inline">
-                        <div class="control">
-                            <label for="fontSize">Font Size:</label>
-                            <input
-                                type="number"
-                                id="fontSize"
-                                value="28"
-                                min="8"
-                                max="128"
-                            />
-                        </div>
-                        <div class="control">
-                            <label for="charSpacing"
-                                >Char Spacing (adds to width):</label
-                            >
-                            <input
-                                type="number"
-                                id="charSpacing"
-                                value="0"
-                                min="-10"
-                                max="32"
-                            />
-                        </div>
-                        <div class="control">
-                            <label for="lineSpacing"
-                                >Line Spacing (adds to height):</label
-                            >
-                            <input
-                                type="number"
-                                id="lineSpacing"
-                                value="0"
-                                min="-10"
-                                max="32"
-                            />
-                        </div>
-                    </div>
-                    <div class="control-group">
-                        <label for="lightnessThreshold"
-                            >Lightness Threshold (Boldness):</label
-                        >
-                        <div class="slider-container">
-                            <input
-                                type="range"
-                                id="lightnessThreshold"
-                                min="1"
-                                max="254"
-                                value="127"
-                            />
-                            <span id="lightnessThresholdValue">127</span>
-                        </div>
-                    </div>
-                    <div class="control-group-inline">
-                        <div class="control">
-                            <label for="isVerticalFont" class="checkbox-label">
-                                <input type="checkbox" id="isVerticalFont" />
-                                Vertical Font (for .bin file)
-                            </label>
-                        </div>
-                        <div class="control">
-                            <label for="chkRenderBorder" class="checkbox-label">
-                                <input type="checkbox" id="chkRenderBorder" />
-                                Render Border in .bin File
-                            </label>
-                        </div>
-                    </div>
-                    <div class="control-group-inline">
-                        <div class="control">
-                            <label
-                                for="chkRenderAntiAlias"
-                                class="checkbox-label"
-                            >
-                                <input
-                                    type="checkbox"
-                                    id="chkRenderAntiAlias"
-                                    checked
-                                />
-                                Enable Anti-Aliasing
-                            </label>
-                        </div>
-                        <div class="control">
-                            <label
-                                for="chkRenderGridFit"
-                                class="checkbox-label"
-                            >
-                                <input
-                                    type="checkbox"
-                                    id="chkRenderGridFit"
-                                    checked
-                                />
-                                Enable Grid Fitting (Hinting)
-                            </label>
-                        </div>
-                    </div>
-                    <div class="control-group-inline">
-                        <div class="control">
-                            <label for="chkOpticalAlign" class="checkbox-label">
-                                <input
-                                    type="checkbox"
-                                    id="chkOpticalAlign"
-                                    checked
-                                />
-                                Enable Optical Alignment
-                            </label>
-                        </div>
-                    </div>
-                </div>
+                <!-- Main Grid: Settings Left, Previews Right -->
+                <div class="main-grid">
+                    <!-- Left Column: Settings -->
+                    <div class="settings-column">
+                        <div class="card">
+                            <h2>Settings</h2>
 
-                <div class="card">
-                    <h2>2. Preview</h2>
-                    <div id="fontInfo"></div>
-                    <div class="control-group">
-                        <label for="previewText">Preview Text:</label>
-                        <textarea id="previewText" rows="3" maxlength="500">
+                            <div class="control-group">
+                                <label for="fontFile"
+                                    >Font File (.ttf, .otf):</label
+                                >
+                                <input
+                                    type="file"
+                                    id="fontFile"
+                                    accept=".ttf,.otf"
+                                />
+                            </div>
+
+                            <div id="fontInfo"></div>
+
+                            <div class="control-group">
+                                <label for="fontSize">Font Size:</label>
+                                <input
+                                    type="number"
+                                    id="fontSize"
+                                    value="28"
+                                    min="8"
+                                    max="128"
+                                />
+                            </div>
+
+                            <div class="control-group">
+                                <label for="charSpacing">Char Spacing:</label>
+                                <input
+                                    type="number"
+                                    id="charSpacing"
+                                    value="0"
+                                    min="-10"
+                                    max="32"
+                                />
+                            </div>
+
+                            <div class="control-group">
+                                <label for="lineSpacing">Line Spacing:</label>
+                                <input
+                                    type="number"
+                                    id="lineSpacing"
+                                    value="0"
+                                    min="-10"
+                                    max="32"
+                                />
+                            </div>
+
+                            <div class="control-group">
+                                <label for="lightnessThreshold"
+                                    >Boldness:</label
+                                >
+                                <div class="slider-container">
+                                    <input
+                                        type="range"
+                                        id="lightnessThreshold"
+                                        min="1"
+                                        max="254"
+                                        value="127"
+                                    />
+                                    <span id="lightnessThresholdValue"
+                                        >127</span
+                                    >
+                                </div>
+                            </div>
+
+                            <div class="control-group">
+                                <label
+                                    for="isVerticalFont"
+                                    class="checkbox-label"
+                                >
+                                    <input
+                                        type="checkbox"
+                                        id="isVerticalFont"
+                                    />
+                                    Vertical Font
+                                </label>
+                            </div>
+
+                            <div class="control-group">
+                                <label
+                                    for="chkRenderBorder"
+                                    class="checkbox-label"
+                                >
+                                    <input
+                                        type="checkbox"
+                                        id="chkRenderBorder"
+                                    />
+                                    Render Border
+                                </label>
+                            </div>
+
+                            <div class="control-group">
+                                <label
+                                    for="chkRenderAntiAlias"
+                                    class="checkbox-label"
+                                >
+                                    <input
+                                        type="checkbox"
+                                        id="chkRenderAntiAlias"
+                                        checked
+                                    />
+                                    Anti-Aliasing
+                                </label>
+                            </div>
+
+                            <div class="control-group">
+                                <label
+                                    for="chkRenderGridFit"
+                                    class="checkbox-label"
+                                >
+                                    <input
+                                        type="checkbox"
+                                        id="chkRenderGridFit"
+                                        checked
+                                    />
+                                    Grid Fitting
+                                </label>
+                            </div>
+
+                            <div class="control-group">
+                                <label
+                                    for="chkOpticalAlign"
+                                    class="checkbox-label"
+                                >
+                                    <input
+                                        type="checkbox"
+                                        id="chkOpticalAlign"
+                                        checked
+                                    />
+                                    Optical Alignment
+                                </label>
+                            </div>
+
+                            <div class="control-group">
+                                <label for="previewText">Preview Text:</label>
+                                <textarea
+                                    id="previewText"
+                                    rows="3"
+                                    maxlength="500"
+                                >
 Zażółć gęślą jaźń 123
 "über den großen"
 the quick brown fox</textarea
-                        >
-                        <div
-                            style="
-                                margin-top: 6px;
-                                font-size: 0.9em;
-                                color: var(--secondary-color);
-                            "
-                        >
-                            <span id="previewCount" aria-live="polite"
-                                >500 characters remaining</span
-                            >
-                        </div>
-                    </div>
-
-                    <div class="previews-container">
-                        <div class="canvas-container">
-                            <label>Glyph Box Preview:</label>
-                            <canvas
-                                id="glyphCanvas"
-                                width="128"
-                                height="128"
-                            ></canvas>
-                        </div>
-                        <div class="canvas-container text-preview-container">
-                            <label>Text Preview (WYSIWYG for .bin file):</label>
-                            <canvas id="previewCanvas" height="128"></canvas>
-                        </div>
-                    </div>
-
-                    <div class="control-group" style="margin-top: 20px">
-                        <h3>
-                            📱 Real-Size E-Reader Preview (4.3" screen, 800×480
-                            @ 220 PPI)
-                        </h3>
-                        <p style="margin-bottom: 12px; color: #666">
-                            Live 1:1 preview at exactly 55mm × 93mm physical
-                            size!
-                            <br />
-                            ✨
-                            <strong
-                                >This preview is used for gallery
-                                submissions</strong
-                            >
-                            - calibrate once to see exactly how your font looks
-                            on the e-reader.
-                            <br />
-                            💡 Use the scale slider to match your screen, then
-                            save calibration.
-                        </p>
-
-                        <div
-                            id="previewScaleControl"
-                            style="
-                                margin-bottom: 15px;
-                                padding: 12px;
-                                background: #f9f9f9;
-                                border-radius: 6px;
-                            "
-                        >
-                            <label
-                                for="displayScale"
-                                style="font-weight: bold; margin-right: 10px"
-                            >
-                                Display Scale (adjust to match 55mm width):
-                            </label>
-                            <input
-                                type="range"
-                                id="displayScale"
-                                min="50"
-                                max="200"
-                                value="100"
-                                style="
-                                    width: 300px;
-                                    vertical-align: middle;
-                                    margin-right: 10px;
-                                "
-                            />
-                            <span
-                                id="displayScaleValue"
-                                style="
-                                    font-weight: bold;
-                                    min-width: 50px;
-                                    display: inline-block;
-                                "
-                                >100%</span
-                            >
-                            <button
-                                id="saveCalibration"
-                                style="
-                                    width: auto;
-                                    padding: 4px 10px;
-                                    font-size: 0.9em;
-                                    background-color: #4caf50;
-                                    margin-right: 8px;
-                                "
-                            >
-                                ✓ Save Calibration
-                            </button>
-                            <button
-                                id="resetDisplayScale"
-                                style="
-                                    width: auto;
-                                    padding: 4px 10px;
-                                    font-size: 0.9em;
-                                    background-color: var(--secondary-color);
-                                "
-                            >
-                                Reset to Auto
-                            </button>
-                            <br />
-                            <small style="color: #666"
-                                >📱 Place your e-reader on the screen - adjust
-                                slider until canvas matches perfectly!</small
-                            >
-                            <br />
-                            <small id="calibrationStatus" style="color: #888"
-                                >💡 Once calibrated, click "Save Calibration" to
-                                remember this setting for next time!</small
-                            >
-                        </div>
-
-                        <div
-                            id="realSizePreviewContainer"
-                            style="margin-top: 15px"
-                        >
-                            <div
-                                style="
-                                    background: #f0f0f0;
-                                    padding: 15px;
-                                    border-radius: 8px;
-                                    display: inline-block;
-                                "
-                            >
-                                <div
-                                    style="
-                                        margin-bottom: 10px;
-                                        font-weight: bold;
-                                        color: #333;
-                                    "
                                 >
-                                    Live Preview (480 × 800 px @ 220 PPI)
+                                <div class="character-count">
+                                    <span id="previewCount" aria-live="polite"
+                                        >500 characters remaining</span
+                                    >
                                 </div>
-                                <div
-                                    style="
-                                        border: 2px solid #333;
-                                        display: inline-block;
-                                        background: white;
-                                        overflow: hidden;
-                                    "
-                                    id="canvasWrapper"
-                                >
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Previews -->
+                    <div class="preview-column">
+                        <div class="card">
+                            <h2>Preview</h2>
+
+                            <div class="canvas-group">
+                                <div class="canvas-container">
+                                    <label>Glyph Preview:</label>
                                     <canvas
-                                        id="realSizeCanvas"
-                                        width="480"
-                                        height="800"
-                                        style="display: block"
+                                        id="glyphCanvas"
+                                        width="128"
+                                        height="128"
                                     ></canvas>
                                 </div>
-                                <div style="margin-top: 10px">
+                                <div class="canvas-container">
+                                    <label>Text Preview:</label>
+                                    <canvas
+                                        id="previewCanvas"
+                                        height="128"
+                                    ></canvas>
+                                </div>
+                            </div>
+
+                            <div class="ereader-preview-section">
+                                <h3>E-Reader Preview</h3>
+                                <p class="preview-description">
+                                    Live 1:1 preview (4.3" screen, 800×480 @ 220
+                                    PPI)
+                                </p>
+
+                                <div class="scale-control">
+                                    <label for="displayScale"
+                                        >Display Scale:</label
+                                    >
+                                    <div class="scale-input-group">
+                                        <input
+                                            type="range"
+                                            id="displayScale"
+                                            min="50"
+                                            max="200"
+                                            value="100"
+                                        />
+                                        <span id="displayScaleValue">100%</span>
+                                    </div>
+                                    <div class="scale-buttons">
+                                        <button
+                                            id="saveCalibration"
+                                            class="btn-success"
+                                        >
+                                            Save Calibration
+                                        </button>
+                                        <button
+                                            id="resetDisplayScale"
+                                            class="btn-secondary"
+                                        >
+                                            Reset
+                                        </button>
+                                    </div>
+                                    <small
+                                        id="calibrationStatus"
+                                        class="help-text"
+                                    >
+                                        Adjust slider to match your screen size
+                                    </small>
+                                </div>
+
+                                <div class="canvas-preview-wrapper">
+                                    <div id="canvasWrapper">
+                                        <canvas
+                                            id="realSizeCanvas"
+                                            width="480"
+                                            height="800"
+                                        ></canvas>
+                                    </div>
                                     <button
                                         id="exportPreviewBtn"
-                                        style="
-                                            width: auto;
-                                            padding: 8px 16px;
-                                            background-color: #007bff;
-                                        "
+                                        class="btn-primary"
                                     >
-                                        💾 Export as PNG
+                                        Export as PNG
                                     </button>
-                                </div>
-                                <div
-                                    style="
-                                        margin-top: 8px;
-                                        padding: 8px;
-                                        background: #e8f5e9;
-                                        border-left: 3px solid #4caf50;
-                                        border-radius: 4px;
-                                        font-size: 0.85em;
-                                    "
-                                >
-                                    <strong>✓ Live 1:1 Preview:</strong>
-                                    <br />
-                                    <small id="previewDimensionsInfo"
-                                        >Canvas updates automatically as you
-                                        change font settings.</small
-                                    >
-                                    <br />
-                                    <small style="color: #4caf50"
-                                        >📸 <strong>Note:</strong> This preview
-                                        is used for gallery submissions - users
-                                        will see exactly how your font looks on
-                                        the e-reader screen!</small
-                                    >
-                                    <br />
-                                    <small
-                                        ><strong>Physical size:</strong> Should
-                                        be exactly 55mm × 93mm (2.17" × 3.66")
-                                        when scale is adjusted correctly.</small
-                                    >
-                                    <br />
-                                    <small
-                                        >📱
-                                        <strong>How to calibrate:</strong> Place
-                                        your e-reader directly on the screen
-                                        over the canvas. Adjust the scale slider
-                                        until the canvas edges align perfectly
-                                        with your e-reader screen. Save
-                                        calibration and you're done!</small
-                                    >
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
+                <!-- Full Width: Font Info & Actions -->
                 <div class="card">
-                    <h2>3. Generate Binary File</h2>
-                    <div class="control-group">
-                        <button id="convertBtn">Convert to .BIN</button>
+                    <h2>Generate & Save</h2>
+
+                    <div class="action-group">
+                        <button id="convertBtn" class="btn-primary btn-large">
+                            Convert to .BIN
+                        </button>
                         <p id="progressMsg"></p>
                     </div>
+
                     <div class="control-group">
-                        <h3>Publish to Gallery (via server)</h3>
-                        <p>
-                            Click to send the generated files to the server
-                            which will create a PR for you. After approving PR
-                            by repo maintainers it will be shown in
-                            <a href="gallery.html">gallery.</a>
+                        <h3>Publish to Gallery</h3>
+                        <p class="gallery-description">
+                            Submit your font to the gallery. After approval, it
+                            will be shown in the
+                            <a href="gallery.html">gallery</a>.
                         </p>
                         <label for="submitterName">Your name (optional):</label>
                         <input
@@ -472,12 +379,11 @@ the quick brown fox</textarea
                             id="submitterName"
                             placeholder="Anonymous"
                         />
-                        <div style="margin-top: 8px">
-                            <button id="saveServerBtn">Save to gallery</button>
-                            <span
-                                id="saveServerStatus"
-                                style="margin-left: 8px"
-                            ></span>
+                        <div class="gallery-actions">
+                            <button id="saveServerBtn" class="btn-primary">
+                                Save to Gallery
+                            </button>
+                            <span id="saveServerStatus"></span>
                         </div>
                     </div>
                 </div>
