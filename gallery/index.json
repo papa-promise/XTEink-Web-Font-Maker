@@ -241,6 +241,21 @@
       "height": 28
     },
     {
+      "id": "space-mono-regular-2025-11-14t18-18-31-661z",
+      "family": "Space Mono",
+      "style": "Regular",
+      "preview_text": "Vérification simple directement sur ton X4\nTu peux tester ton WorkSans.bin en 5 secondes :\n\nMets ton fichier WorkSans.bin n’importe où sur la carte SD.(Le X4 détecte automatiquement toutes les polices .bin) (reddit.com)\nOuvre un ePub → paramètres → change la police.\nSi la police ne s’affiche pas, ou affiche des carrés / grands espaces / texte déformé :\n→ le .bin n’est pas bon.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/space-mono-regular-2025-11-14t18-18-31-661z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/space-mono-regular-2025-11-14t18-18-31-661z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/space-mono-regular-2025-11-14t18-18-31-661z/font_13x27.bin",
+      "submitter": {
+        "name": "TYLT"
+      },
+      "timestamp": "2025-11-14T18:18:31.661Z",
+      "width": 13,
+      "height": 27
+    },
+    {
       "id": "space-mono-regular-2025-11-14t18-23-50-211z",
       "family": "Space Mono",
       "style": "Regular",
@@ -615,6 +630,18 @@
         {
           "style": "Regular",
           "sizes": [
+            {
+              "id": "space-mono-regular-2025-11-14t18-18-31-661z",
+              "width": 13,
+              "height": 27,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/space-mono-regular-2025-11-14t18-18-31-661z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/space-mono-regular-2025-11-14t18-18-31-661z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/space-mono-regular-2025-11-14t18-18-31-661z/font_13x27.bin",
+              "submitter": {
+                "name": "TYLT"
+              },
+              "timestamp": "2025-11-14T18:18:31.661Z"
+            },
             {
               "id": "space-mono-regular-2025-11-14t18-23-50-211z",
               "width": 15,
