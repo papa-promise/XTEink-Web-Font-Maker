@@ -149,6 +149,21 @@
       "timestamp": "2025-11-14T09:54:13.341Z",
       "width": 24,
       "height": 29
+    },
+    {
+      "id": "opendyslexic-regular-2025-11-14t09-56-49-889z",
+      "family": "OpenDyslexic",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/opendyslexic-regular-2025-11-14t09-56-49-889z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/opendyslexic-regular-2025-11-14t09-56-49-889z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/opendyslexic-regular-2025-11-14t09-56-49-889z/font_30x38.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2025-11-14T09:56:49.889Z",
+      "width": 30,
+      "height": 38
     }
   ],
   "tree": [
@@ -352,6 +367,28 @@
                 "name": "x4-inker"
               },
               "timestamp": "2025-11-14T09:54:13.341Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "OpenDyslexic",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "opendyslexic-regular-2025-11-14t09-56-49-889z",
+              "width": 30,
+              "height": 38,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/opendyslexic-regular-2025-11-14t09-56-49-889z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/opendyslexic-regular-2025-11-14t09-56-49-889z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/opendyslexic-regular-2025-11-14t09-56-49-889z/font_30x38.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2025-11-14T09:56:49.889Z"
             }
           ]
         }
