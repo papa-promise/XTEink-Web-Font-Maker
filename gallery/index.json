@@ -134,6 +134,21 @@
       "timestamp": "2025-11-14T09:51:14.936Z",
       "width": 19,
       "height": 23
+    },
+    {
+      "id": "literata-regular-2025-11-14t09-54-13-341z",
+      "family": "Literata",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2025-11-14t09-54-13-341z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2025-11-14t09-54-13-341z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2025-11-14t09-54-13-341z/font_24x29.bin",
+      "submitter": {
+        "name": "x4-inker"
+      },
+      "timestamp": "2025-11-14T09:54:13.341Z",
+      "width": 24,
+      "height": 29
     }
   ],
   "tree": [
@@ -315,6 +330,28 @@
                 "name": "Lakafior"
               },
               "timestamp": "2025-11-14T09:51:14.936Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Literata",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "literata-regular-2025-11-14t09-54-13-341z",
+              "width": 24,
+              "height": 29,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2025-11-14t09-54-13-341z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2025-11-14t09-54-13-341z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2025-11-14t09-54-13-341z/font_24x29.bin",
+              "submitter": {
+                "name": "x4-inker"
+              },
+              "timestamp": "2025-11-14T09:54:13.341Z"
             }
           ]
         }
