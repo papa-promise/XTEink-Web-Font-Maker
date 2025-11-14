@@ -241,6 +241,21 @@
       "height": 28
     },
     {
+      "id": "space-mono-regular-2025-11-14t18-23-50-211z",
+      "family": "Space Mono",
+      "style": "Regular",
+      "preview_text": "Vérification simple directement sur ton X4\nTu peux tester ton WorkSans.bin en 5 secondes :\n\nMets ton fichier WorkSans.bin n’importe où sur la carte SD.(Le X4 détecte automatiquement toutes les polices .bin) (reddit.com)\nOuvre un ePub → paramètres → change la police.\nSi la police ne s’affiche pas, ou affiche des carrés / grands espaces / texte déformé :\n→ le .bin n’est pas bon.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/space-mono-regular-2025-11-14t18-23-50-211z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/space-mono-regular-2025-11-14t18-23-50-211z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/space-mono-regular-2025-11-14t18-23-50-211z/font_15x31.bin",
+      "submitter": {
+        "name": "TYLT"
+      },
+      "timestamp": "2025-11-14T18:23:50.211Z",
+      "width": 15,
+      "height": 31
+    },
+    {
       "id": "verdana-regular-2025-11-14t14-30-10-801z",
       "family": "Verdana",
       "style": "Regular",
@@ -589,6 +604,28 @@
                 "name": "Anonymous"
               },
               "timestamp": "2025-11-14T14:32:37.601Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Space Mono",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "space-mono-regular-2025-11-14t18-23-50-211z",
+              "width": 15,
+              "height": 31,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/space-mono-regular-2025-11-14t18-23-50-211z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/space-mono-regular-2025-11-14t18-23-50-211z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/space-mono-regular-2025-11-14t18-23-50-211z/font_15x31.bin",
+              "submitter": {
+                "name": "TYLT"
+              },
+              "timestamp": "2025-11-14T18:23:50.211Z"
             }
           ]
         }
