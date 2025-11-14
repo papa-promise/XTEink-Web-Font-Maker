@@ -14,6 +14,21 @@
       "timestamp": "2025-11-14T09:25:14.650Z",
       "width": 25,
       "height": 26
+    },
+    {
+      "id": "bitcount-grid-single-cursive-regular-2025-11-14t09-29-11-793z",
+      "family": "Bitcount Grid Single Cursive",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bitcount-grid-single-cursive-regular-2025-11-14t09-29-11-793z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bitcount-grid-single-cursive-regular-2025-11-14t09-29-11-793z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bitcount-grid-single-cursive-regular-2025-11-14t09-29-11-793z/font_17x20.bin",
+      "submitter": {
+        "name": "Lakafior"
+      },
+      "timestamp": "2025-11-14T09:29:11.794Z",
+      "width": 17,
+      "height": 20
     }
   ],
   "tree": [
@@ -34,6 +49,28 @@
                 "name": "Anonymous"
               },
               "timestamp": "2025-11-14T09:25:14.650Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Bitcount Grid Single Cursive",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "bitcount-grid-single-cursive-regular-2025-11-14t09-29-11-793z",
+              "width": 17,
+              "height": 20,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bitcount-grid-single-cursive-regular-2025-11-14t09-29-11-793z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bitcount-grid-single-cursive-regular-2025-11-14t09-29-11-793z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bitcount-grid-single-cursive-regular-2025-11-14t09-29-11-793z/font_17x20.bin",
+              "submitter": {
+                "name": "Lakafior"
+              },
+              "timestamp": "2025-11-14T09:29:11.794Z"
             }
           ]
         }
