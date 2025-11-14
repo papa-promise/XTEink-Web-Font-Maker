@@ -16,6 +16,21 @@
       "height": 36
     },
     {
+      "id": "arial-regular-2025-11-14t04-28-13-465z",
+      "family": "Arial",
+      "style": "Regular",
+      "preview_text": "Zażółć gęślą jaźń 123\n\"über den großen\"\nthe quick brown fox",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/arial-regular-2025-11-14t04-28-13-465z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/arial-regular-2025-11-14t04-28-13-465z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/arial-regular-2025-11-14t04-28-13-465z/font_27x26.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2025-11-14T04:28:13.465Z",
+      "width": 27,
+      "height": 26
+    },
+    {
       "id": "bitcount-grid-single-cursive-regular-2025-10-30t14-30-19-294z",
       "family": "Bitcount Grid Single Cursive",
       "style": "Regular",
@@ -214,6 +229,28 @@
                 "name": "Giobatta"
               },
               "timestamp": "2025-11-01T17:02:49.332Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Arial",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "arial-regular-2025-11-14t04-28-13-465z",
+              "width": 27,
+              "height": 26,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/arial-regular-2025-11-14t04-28-13-465z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/arial-regular-2025-11-14t04-28-13-465z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/arial-regular-2025-11-14t04-28-13-465z/font_27x26.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2025-11-14T04:28:13.465Z"
             }
           ]
         }
