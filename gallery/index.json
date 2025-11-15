@@ -286,6 +286,21 @@
       "height": 28
     },
     {
+      "id": "red-hat-text-regular-2025-11-15t13-10-01-571z",
+      "family": "Red Hat Text",
+      "style": "Regular",
+      "preview_text": "Pan Ändern sie den text o.ä möpmöpm Äne Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/red-hat-text-regular-2025-11-15t13-10-01-571z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/red-hat-text-regular-2025-11-15t13-10-01-571z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/red-hat-text-regular-2025-11-15t13-10-01-571z/font_23x28.bin",
+      "submitter": {
+        "name": "RHEL"
+      },
+      "timestamp": "2025-11-15T13:10:01.571Z",
+      "width": 23,
+      "height": 28
+    },
+    {
       "id": "roboto-slab-extralight-2025-11-14t23-01-34-502z",
       "family": "Roboto Slab",
       "style": "ExtraLight",
@@ -745,6 +760,28 @@
                 "name": "Verdana"
               },
               "timestamp": "2025-11-14T14:33:38.517Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Red Hat Text",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "red-hat-text-regular-2025-11-15t13-10-01-571z",
+              "width": 23,
+              "height": 28,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/red-hat-text-regular-2025-11-15t13-10-01-571z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/red-hat-text-regular-2025-11-15t13-10-01-571z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/red-hat-text-regular-2025-11-15t13-10-01-571z/font_23x28.bin",
+              "submitter": {
+                "name": "RHEL"
+              },
+              "timestamp": "2025-11-15T13:10:01.571Z"
             }
           ]
         }
