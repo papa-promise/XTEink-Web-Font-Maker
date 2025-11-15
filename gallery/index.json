@@ -181,6 +181,21 @@
       "height": 29
     },
     {
+      "id": "merriweather-bold-2025-11-15t00-50-15-542z",
+      "family": "Merriweather",
+      "style": "Bold",
+      "preview_text": "this is a test sentence.\nthis is a longer test sentence.\nTHIS IS A TEST SENTENCE BUT IN CAPITALS AND SO LONG SO SO LONG THAT IT CREATES MULTIPLE NEWLINES.\nĐây là một câu thử để kiểm tra khả năng hiển thị bằng tiếng việt",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/merriweather-bold-2025-11-15t00-50-15-542z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/merriweather-bold-2025-11-15t00-50-15-542z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/merriweather-bold-2025-11-15t00-50-15-542z/font_12x22.bin",
+      "submitter": {
+        "name": "BuiRead"
+      },
+      "timestamp": "2025-11-15T00:50:15.542Z",
+      "width": 12,
+      "height": 22
+    },
+    {
       "id": "merriweather-regular-2025-11-14t14-41-12-071z",
       "family": "Merriweather",
       "style": "Regular",
@@ -194,6 +209,21 @@
       "timestamp": "2025-11-14T14:41:12.072Z",
       "width": 30,
       "height": 28
+    },
+    {
+      "id": "meslolgs-nf-regular-2025-11-14t22-51-17-638z",
+      "family": "MesloLGS NF",
+      "style": "Regular",
+      "preview_text": "Zen Browser’s workspaces feature is your go-to tool for organizing tabs seamlessly by tasks, projects, or themes. Think of each workspace as a focused area where you can group related tabs and quickly switch between sets—ideal for juggling work, personal tasks, or study sessions without cluttering your tab bar.\n\nPan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego ",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/meslolgs-nf-regular-2025-11-14t22-51-17-638z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/meslolgs-nf-regular-2025-11-14t22-51-17-638z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/meslolgs-nf-regular-2025-11-14t22-51-17-638z/font_12x19.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2025-11-14T22:51:17.638Z",
+      "width": 12,
+      "height": 19
     },
     {
       "id": "opendyslexic-regular-2025-11-14t09-56-49-889z",
@@ -224,6 +254,21 @@
       "timestamp": "2025-11-14T14:33:38.517Z",
       "width": 26,
       "height": 28
+    },
+    {
+      "id": "roboto-slab-extralight-2025-11-14t23-01-34-502z",
+      "family": "Roboto Slab",
+      "style": "ExtraLight",
+      "preview_text": "В тихом осеннем лесу, среди золотых и багряных деревьев, стояла маленькая избушка.\nКаждое утро над озером поднимался лёгкий туман, и вода казалась серебристой, будто её покрывала тонкая паутинка.\nЖившие неподалёку люди часто приходили сюда, чтобы насладиться тишиной и отдохнуть от городской суеты.\n\nОднажды молодой путешественник по имени Алексей остановился в этой избушке, чтобы переночевать.\nОн разжёг небольшой костёр, поставил кипятиться чайник и достал из рюкзака старую книгу, найденную им на",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/roboto-slab-extralight-2025-11-14t23-01-34-502z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/roboto-slab-extralight-2025-11-14t23-01-34-502z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/roboto-slab-extralight-2025-11-14t23-01-34-502z/font_17x21.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2025-11-14T23:01:34.503Z",
+      "width": 17,
+      "height": 21
     },
     {
       "id": "salma-pro-medium-narrow-2025-11-14t14-32-37-601z",
@@ -540,6 +585,23 @@
       "family": "Merriweather",
       "types": [
         {
+          "style": "Bold",
+          "sizes": [
+            {
+              "id": "merriweather-bold-2025-11-15t00-50-15-542z",
+              "width": 12,
+              "height": 22,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/merriweather-bold-2025-11-15t00-50-15-542z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/merriweather-bold-2025-11-15t00-50-15-542z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/merriweather-bold-2025-11-15t00-50-15-542z/font_12x22.bin",
+              "submitter": {
+                "name": "BuiRead"
+              },
+              "timestamp": "2025-11-15T00:50:15.542Z"
+            }
+          ]
+        },
+        {
           "style": "Regular",
           "sizes": [
             {
@@ -553,6 +615,28 @@
                 "name": "BuiRead"
               },
               "timestamp": "2025-11-14T14:41:12.072Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "MesloLGS NF",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "meslolgs-nf-regular-2025-11-14t22-51-17-638z",
+              "width": 12,
+              "height": 19,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/meslolgs-nf-regular-2025-11-14t22-51-17-638z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/meslolgs-nf-regular-2025-11-14t22-51-17-638z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/meslolgs-nf-regular-2025-11-14t22-51-17-638z/font_12x19.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2025-11-14T22:51:17.638Z"
             }
           ]
         }
@@ -597,6 +681,28 @@
                 "name": "Verdana"
               },
               "timestamp": "2025-11-14T14:33:38.517Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Roboto Slab",
+      "types": [
+        {
+          "style": "ExtraLight",
+          "sizes": [
+            {
+              "id": "roboto-slab-extralight-2025-11-14t23-01-34-502z",
+              "width": 17,
+              "height": 21,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/roboto-slab-extralight-2025-11-14t23-01-34-502z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/roboto-slab-extralight-2025-11-14t23-01-34-502z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/roboto-slab-extralight-2025-11-14t23-01-34-502z/font_17x21.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2025-11-14T23:01:34.503Z"
             }
           ]
         }
