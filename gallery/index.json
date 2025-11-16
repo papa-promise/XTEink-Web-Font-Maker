@@ -301,6 +301,21 @@
       "height": 28
     },
     {
+      "id": "pixel-operator-regular-2025-11-16t01-31-08-075z",
+      "family": "Pixel Operator",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.In this section I've tried to port a",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/pixel-operator-regular-2025-11-16t01-31-08-075z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/pixel-operator-regular-2025-11-16t01-31-08-075z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/pixel-operator-regular-2025-11-16t01-31-08-075z/font_11x26.bin",
+      "submitter": {
+        "name": "AV"
+      },
+      "timestamp": "2025-11-16T01:31:08.075Z",
+      "width": 11,
+      "height": 26
+    },
+    {
       "id": "red-hat-text-regular-2025-11-15t13-10-01-571z",
       "family": "Red Hat Text",
       "style": "Regular",
@@ -797,6 +812,28 @@
                 "name": "Verdana"
               },
               "timestamp": "2025-11-14T14:33:38.517Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Pixel Operator",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "pixel-operator-regular-2025-11-16t01-31-08-075z",
+              "width": 11,
+              "height": 26,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/pixel-operator-regular-2025-11-16t01-31-08-075z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/pixel-operator-regular-2025-11-16t01-31-08-075z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/pixel-operator-regular-2025-11-16t01-31-08-075z/font_11x26.bin",
+              "submitter": {
+                "name": "AV"
+              },
+              "timestamp": "2025-11-16T01:31:08.075Z"
             }
           ]
         }
