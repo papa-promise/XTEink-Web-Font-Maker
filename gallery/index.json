@@ -121,6 +121,21 @@
       "height": 29
     },
     {
+      "id": "cyberpunkwaifus-medium-2025-11-17t11-16-35-842z",
+      "family": "CyberpunkWaifus",
+      "style": "Medium",
+      "preview_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/cyberpunkwaifus-medium-2025-11-17t11-16-35-842z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/cyberpunkwaifus-medium-2025-11-17t11-16-35-842z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/cyberpunkwaifus-medium-2025-11-17t11-16-35-842z/font_14x31.bin",
+      "submitter": {
+        "name": "InternationalEye2811"
+      },
+      "timestamp": "2025-11-17T11:16:35.849Z",
+      "width": 14,
+      "height": 31
+    },
+    {
       "id": "fantasque-sans-mono-bold-2025-11-14t19-35-30-463z",
       "family": "Fantasque Sans Mono",
       "style": "Bold",
@@ -578,6 +593,28 @@
                 "name": "Anonymous"
               },
               "timestamp": "2025-11-14T09:46:19.838Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "CyberpunkWaifus",
+      "types": [
+        {
+          "style": "Medium",
+          "sizes": [
+            {
+              "id": "cyberpunkwaifus-medium-2025-11-17t11-16-35-842z",
+              "width": 14,
+              "height": 31,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/cyberpunkwaifus-medium-2025-11-17t11-16-35-842z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/cyberpunkwaifus-medium-2025-11-17t11-16-35-842z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/cyberpunkwaifus-medium-2025-11-17t11-16-35-842z/font_14x31.bin",
+              "submitter": {
+                "name": "InternationalEye2811"
+              },
+              "timestamp": "2025-11-17T11:16:35.849Z"
             }
           ]
         }
