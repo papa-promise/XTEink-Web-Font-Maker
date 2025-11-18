@@ -121,6 +121,21 @@
       "height": 29
     },
     {
+      "id": "cormorant-garamond-medium-2025-11-17t11-49-49-227z",
+      "family": "Cormorant Garamond",
+      "style": "Medium",
+      "preview_text": "Hello the Vampire yelloweddd",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/cormorant-garamond-medium-2025-11-17t11-49-49-227z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/cormorant-garamond-medium-2025-11-17t11-49-49-227z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/cormorant-garamond-medium-2025-11-17t11-49-49-227z/font_33x29.bin",
+      "submitter": {
+        "name": "Garamond Coromant 35"
+      },
+      "timestamp": "2025-11-17T11:49:49.228Z",
+      "width": 33,
+      "height": 29
+    },
+    {
       "id": "cyberpunkwaifus-medium-2025-11-17t11-16-35-842z",
       "family": "CyberpunkWaifus",
       "style": "Medium",
@@ -593,6 +608,28 @@
                 "name": "Anonymous"
               },
               "timestamp": "2025-11-14T09:46:19.838Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Cormorant Garamond",
+      "types": [
+        {
+          "style": "Medium",
+          "sizes": [
+            {
+              "id": "cormorant-garamond-medium-2025-11-17t11-49-49-227z",
+              "width": 33,
+              "height": 29,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/cormorant-garamond-medium-2025-11-17t11-49-49-227z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/cormorant-garamond-medium-2025-11-17t11-49-49-227z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/cormorant-garamond-medium-2025-11-17t11-49-49-227z/font_33x29.bin",
+              "submitter": {
+                "name": "Garamond Coromant 35"
+              },
+              "timestamp": "2025-11-17T11:49:49.228Z"
             }
           ]
         }
