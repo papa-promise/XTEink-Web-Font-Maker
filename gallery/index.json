@@ -166,6 +166,21 @@
       "height": 31
     },
     {
+      "id": "fantasque-sans-mono-regular-2025-11-17t12-03-19-119z",
+      "family": "Fantasque Sans Mono",
+      "style": "Regular",
+      "preview_text": "Today there was a man, who was sitting in the ditch and he went to get the car and then he lied over and over again.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/fantasque-sans-mono-regular-2025-11-17t12-03-19-119z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/fantasque-sans-mono-regular-2025-11-17t12-03-19-119z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/fantasque-sans-mono-regular-2025-11-17t12-03-19-119z/font_15x30.bin",
+      "submitter": {
+        "name": "Philipp"
+      },
+      "timestamp": "2025-11-17T12:03:19.119Z",
+      "width": 15,
+      "height": 30
+    },
+    {
       "id": "headlandone-regular-2025-11-16t02-13-45-398z",
       "family": "HeadlandOne",
       "style": "Regular",
@@ -314,6 +329,21 @@
       "timestamp": "2025-11-14T22:51:17.638Z",
       "width": 12,
       "height": 19
+    },
+    {
+      "id": "noto-sans-condensed-bold-2025-11-18t00-11-47-261z",
+      "family": "Noto Sans Condensed",
+      "style": "Bold",
+      "preview_text": "Pan Deklewski il est l'a, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/noto-sans-condensed-bold-2025-11-18t00-11-47-261z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/noto-sans-condensed-bold-2025-11-18t00-11-47-261z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/noto-sans-condensed-bold-2025-11-18t00-11-47-261z/font_23x26.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2025-11-18T00:11:47.261Z",
+      "width": 23,
+      "height": 26
     },
     {
       "id": "opendyslexic-regular-2025-11-14t09-56-49-889z",
@@ -676,6 +706,23 @@
               "timestamp": "2025-11-14T19:35:30.463Z"
             }
           ]
+        },
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "fantasque-sans-mono-regular-2025-11-17t12-03-19-119z",
+              "width": 15,
+              "height": 30,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/fantasque-sans-mono-regular-2025-11-17t12-03-19-119z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/fantasque-sans-mono-regular-2025-11-17t12-03-19-119z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/fantasque-sans-mono-regular-2025-11-17t12-03-19-119z/font_15x30.bin",
+              "submitter": {
+                "name": "Philipp"
+              },
+              "timestamp": "2025-11-17T12:03:19.119Z"
+            }
+          ]
         }
       ]
     },
@@ -879,6 +926,28 @@
                 "name": "Anonymous"
               },
               "timestamp": "2025-11-14T22:51:17.638Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Noto Sans Condensed",
+      "types": [
+        {
+          "style": "Bold",
+          "sizes": [
+            {
+              "id": "noto-sans-condensed-bold-2025-11-18t00-11-47-261z",
+              "width": 23,
+              "height": 26,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/noto-sans-condensed-bold-2025-11-18t00-11-47-261z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/noto-sans-condensed-bold-2025-11-18t00-11-47-261z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/noto-sans-condensed-bold-2025-11-18t00-11-47-261z/font_23x26.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2025-11-18T00:11:47.261Z"
             }
           ]
         }
