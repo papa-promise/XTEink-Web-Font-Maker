@@ -241,6 +241,21 @@
       "height": 29
     },
     {
+      "id": "jmh-typewriter-regular-2025-11-20t13-29-10-858z",
+      "family": "JMH Typewriter",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/jmh-typewriter-regular-2025-11-20t13-29-10-858z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/jmh-typewriter-regular-2025-11-20t13-29-10-858z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/jmh-typewriter-regular-2025-11-20t13-29-10-858z/font_24x28.bin",
+      "submitter": {
+        "name": "Angelarge03"
+      },
+      "timestamp": "2025-11-20T13:29:10.858Z",
+      "width": 24,
+      "height": 28
+    },
+    {
       "id": "kalpana-unicode-kalpana-unicode-2025-11-14t09-49-16-811z",
       "family": "Kalpana Unicode",
       "style": "Kalpana Unicode",
@@ -869,6 +884,28 @@
                 "name": "Anonymous"
               },
               "timestamp": "2025-11-15T09:05:53.652Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "JMH Typewriter",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "jmh-typewriter-regular-2025-11-20t13-29-10-858z",
+              "width": 24,
+              "height": 28,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/jmh-typewriter-regular-2025-11-20t13-29-10-858z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/jmh-typewriter-regular-2025-11-20t13-29-10-858z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/jmh-typewriter-regular-2025-11-20t13-29-10-858z/font_24x28.bin",
+              "submitter": {
+                "name": "Angelarge03"
+              },
+              "timestamp": "2025-11-20T13:29:10.858Z"
             }
           ]
         }
