@@ -151,6 +151,21 @@
       "height": 31
     },
     {
+      "id": "elms-sans-medium-2025-11-20t09-34-45-143z",
+      "family": "Elms Sans",
+      "style": "Medium",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/elms-sans-medium-2025-11-20t09-34-45-143z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/elms-sans-medium-2025-11-20t09-34-45-143z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/elms-sans-medium-2025-11-20t09-34-45-143z/font_32x30.bin",
+      "submitter": {
+        "name": "Angelarge03"
+      },
+      "timestamp": "2025-11-20T09:34:45.144Z",
+      "width": 32,
+      "height": 30
+    },
+    {
       "id": "fantasque-sans-mono-bold-2025-11-14t19-35-30-463z",
       "family": "Fantasque Sans Mono",
       "style": "Bold",
@@ -194,6 +209,21 @@
       "timestamp": "2025-11-16T02:13:45.399Z",
       "width": 16,
       "height": 24
+    },
+    {
+      "id": "inconsolata-regular-2025-11-20t12-55-58-882z",
+      "family": "Inconsolata",
+      "style": "Regular",
+      "preview_text": "It was the Dover road that lay, on a Friday night late in November, before the first of the persons with whom this history has business. The Dover road lay, as to him, beyond the Dover mail, as it lumbered up Shooter's",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/inconsolata-regular-2025-11-20t12-55-58-882z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/inconsolata-regular-2025-11-20t12-55-58-882z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/inconsolata-regular-2025-11-20t12-55-58-882z/font_19x38.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2025-11-20T12:55:58.883Z",
+      "width": 19,
+      "height": 38
     },
     {
       "id": "jetbrains-mono-regular-2025-11-15t09-05-53-652z",
@@ -718,6 +748,28 @@
       ]
     },
     {
+      "family": "Elms Sans",
+      "types": [
+        {
+          "style": "Medium",
+          "sizes": [
+            {
+              "id": "elms-sans-medium-2025-11-20t09-34-45-143z",
+              "width": 32,
+              "height": 30,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/elms-sans-medium-2025-11-20t09-34-45-143z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/elms-sans-medium-2025-11-20t09-34-45-143z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/elms-sans-medium-2025-11-20t09-34-45-143z/font_32x30.bin",
+              "submitter": {
+                "name": "Angelarge03"
+              },
+              "timestamp": "2025-11-20T09:34:45.144Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "family": "Fantasque Sans Mono",
       "types": [
         {
@@ -773,6 +825,28 @@
                 "name": "Arn0"
               },
               "timestamp": "2025-11-16T02:13:45.399Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Inconsolata",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "inconsolata-regular-2025-11-20t12-55-58-882z",
+              "width": 19,
+              "height": 38,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/inconsolata-regular-2025-11-20t12-55-58-882z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/inconsolata-regular-2025-11-20t12-55-58-882z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/inconsolata-regular-2025-11-20t12-55-58-882z/font_19x38.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2025-11-20T12:55:58.883Z"
             }
           ]
         }
