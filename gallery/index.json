@@ -136,6 +136,21 @@
       "height": 33
     },
     {
+      "id": "bookerly-regular-2025-11-21t23-17-49-616z",
+      "family": "Bookerly",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-11-21t23-17-49-616z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-11-21t23-17-49-616z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-11-21t23-17-49-616z/font_17x34.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2025-11-21T23:17:49.622Z",
+      "width": 17,
+      "height": 34
+    },
+    {
       "id": "chareink-regular-2025-11-14t09-46-19-838z",
       "family": "ChareInk",
       "style": "Regular",
@@ -481,6 +496,21 @@
       "height": 26
     },
     {
+      "id": "open-sans-regular-2025-11-22t12-57-20-875z",
+      "family": "Open Sans",
+      "style": "Regular",
+      "preview_text": "1: Pangrams (All Letters) and Numerals\n\nThe quick brown fox jumps over the lazy dog.\nPack my box with five dozen liquor jugs!\nSphinx of black quartz, judge my vow.\n\n2: Accented Latin Characters\nÀÁÂÃÄÅ ÆÇÈÉÊË ÌÍÎÏ ÑÒÓÔÕÖ ØÙÚÛÜ Ý Ÿ\nàáâãäå æçèéêë ìíîï ñòóôõö øùúûü ý ÿ\n\n3: Extended Latin and Diacritics\nĀā Ăă Ąą Ćć Ĉĉ Ċċ Čč Ďď Đđ Ēē Ĕĕ Ėė Ęę Ěě Ĝĝ Ğğ Ġġ Ģģ Ĥĥ Ħħ Ĩĩ Īī Ĭĭ Įį İı Ĵĵ\nĶķ Ĺĺ Ļļ Ľľ Łł Ńń Ņņ Ňň Ōō Ŏŏ Őő Ŕŕ Ŗŗ Řř Śś Ŝŝ Şş Šš Ţţ Ťť Ŧŧ Ũũ Ūū Ŭŭ Ůů Űű Ųų Ŵŵ Ŷŷ ŸŹ ź Żż Žž\n\n4: Greek Alphabet\nGreek",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/open-sans-regular-2025-11-22t12-57-20-875z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/open-sans-regular-2025-11-22t12-57-20-875z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/open-sans-regular-2025-11-22t12-57-20-875z/font_16x27.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2025-11-22T12:57:20.876Z",
+      "width": 16,
+      "height": 27
+    },
+    {
       "id": "opendyslexic-regular-2025-11-14t09-56-49-889z",
       "family": "OpenDyslexic",
       "style": "Regular",
@@ -785,6 +815,18 @@
                 "name": "bcct"
               },
               "timestamp": "2025-11-14T09:43:52.924Z"
+            },
+            {
+              "id": "bookerly-regular-2025-11-21t23-17-49-616z",
+              "width": 17,
+              "height": 34,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-11-21t23-17-49-616z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-11-21t23-17-49-616z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-11-21t23-17-49-616z/font_17x34.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2025-11-21T23:17:49.622Z"
             }
           ]
         }
@@ -1251,6 +1293,28 @@
                 "name": "fr_font"
               },
               "timestamp": "2025-11-18T00:13:09.762Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Open Sans",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "open-sans-regular-2025-11-22t12-57-20-875z",
+              "width": 16,
+              "height": 27,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/open-sans-regular-2025-11-22t12-57-20-875z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/open-sans-regular-2025-11-22t12-57-20-875z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/open-sans-regular-2025-11-22t12-57-20-875z/font_16x27.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2025-11-22T12:57:20.876Z"
             }
           ]
         }
