@@ -361,6 +361,21 @@
       "height": 24
     },
     {
+      "id": "lucida-sans-demibold-2025-11-22t13-06-17-643z",
+      "family": "Lucida Sans",
+      "style": "Demibold",
+      "preview_text": "# Part 1: Pangrams (All Letters)\nThe quick brown fox jumps over the lazy dog.\nPack my box with five dozen liquor jugs!\nSphinx of black quartz, judge my vow.\n# Purpose: Pangrams include every letter of the alphabet, displaying glyph shapes and balance for all lowercase and uppercase characters[web:12][web:15].\n\n# Part 2: Numerals\n0123456789\n# Purpose: Examines numeric design, alignment, and spacing.\n\n# Part 3: Accented Latin Characters\nÀÁÂÃÄÅ ÆÇÈÉÊË ÌÍÎÏ ÑÒÓÔÕÖ ØÙÚÛÜ Ý Ÿ\nàáâãäå æçèéêë ìíîï ñòó",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lucida-sans-demibold-2025-11-22t13-06-17-643z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lucida-sans-demibold-2025-11-22t13-06-17-643z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lucida-sans-demibold-2025-11-22t13-06-17-643z/font_19x25.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2025-11-22T13:06:17.644Z",
+      "width": 19,
+      "height": 25
+    },
+    {
       "id": "lucida-sans-unicode-regular-2025-11-22t13-06-36-632z",
       "family": "Lucida Sans Unicode",
       "style": "Regular",
@@ -1085,6 +1100,28 @@
                 "name": "Anonymous"
               },
               "timestamp": "2025-11-15T08:08:55.262Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Lucida Sans",
+      "types": [
+        {
+          "style": "Demibold",
+          "sizes": [
+            {
+              "id": "lucida-sans-demibold-2025-11-22t13-06-17-643z",
+              "width": 19,
+              "height": 25,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lucida-sans-demibold-2025-11-22t13-06-17-643z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lucida-sans-demibold-2025-11-22t13-06-17-643z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lucida-sans-demibold-2025-11-22t13-06-17-643z/font_19x25.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2025-11-22T13:06:17.644Z"
             }
           ]
         }
