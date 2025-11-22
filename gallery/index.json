@@ -241,6 +241,21 @@
       "height": 30
     },
     {
+      "id": "fast-sans-dotted-regular-2025-11-21t14-07-56-773z",
+      "family": "Fast_Sans-Dotted",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/fast-sans-dotted-regular-2025-11-21t14-07-56-773z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/fast-sans-dotted-regular-2025-11-21t14-07-56-773z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/fast-sans-dotted-regular-2025-11-21t14-07-56-773z/font_19x20.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2025-11-21T14:07:56.775Z",
+      "width": 19,
+      "height": 20
+    },
+    {
       "id": "headlandone-regular-2025-11-16t02-13-45-398z",
       "family": "HeadlandOne",
       "style": "Regular",
@@ -954,6 +969,28 @@
                 "name": "Philipp"
               },
               "timestamp": "2025-11-17T12:03:19.119Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Fast_Sans-Dotted",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "fast-sans-dotted-regular-2025-11-21t14-07-56-773z",
+              "width": 19,
+              "height": 20,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/fast-sans-dotted-regular-2025-11-21t14-07-56-773z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/fast-sans-dotted-regular-2025-11-21t14-07-56-773z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/fast-sans-dotted-regular-2025-11-21t14-07-56-773z/font_19x20.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2025-11-21T14:07:56.775Z"
             }
           ]
         }
