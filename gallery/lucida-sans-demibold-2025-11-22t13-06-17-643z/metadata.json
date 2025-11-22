@@ -1,0 +1,12 @@
+{
+  "id": "lucida-sans-demibold-2025-11-22t13-06-17-643z",
+  "family": "Lucida Sans",
+  "style": "Demibold",
+  "preview_text": "# Part 1: Pangrams (All Letters)\nThe quick brown fox jumps over the lazy dog.\nPack my box with five dozen liquor jugs!\nSphinx of black quartz, judge my vow.\n# Purpose: Pangrams include every letter of the alphabet, displaying glyph shapes and balance for all lowercase and uppercase characters[web:12][web:15].\n\n# Part 2: Numerals\n0123456789\n# Purpose: Examines numeric design, alignment, and spacing.\n\n# Part 3: Accented Latin Characters\nÀÁÂÃÄÅ ÆÇÈÉÊË ÌÍÎÏ ÑÒÓÔÕÖ ØÙÚÛÜ Ý Ÿ\nàáâãäå æçèéêë ìíîï ñòó",
+  "width": 19,
+  "height": 25,
+  "timestamp": "2025-11-22T13:06:17.644Z",
+  "submitter": {
+    "name": "Anonymous"
+  }
+}
