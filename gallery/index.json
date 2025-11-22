@@ -361,6 +361,21 @@
       "height": 24
     },
     {
+      "id": "lucida-sans-unicode-regular-2025-11-22t13-06-36-632z",
+      "family": "Lucida Sans Unicode",
+      "style": "Regular",
+      "preview_text": "The quick brown fox jumps over the lazy dog.\nPack my box with five dozen liquor jugs!\nSphinx of black quartz, judge my vow.\n# Purpose: Pangrams include every letter of the alphabet, displaying glyph shapes and balance for all lowercase and uppercase charactersThe uick brown fox jumps over the lazy dog.\nPack my box with five dozen liquor jugs!\nSphinx of black quartz, judge my vow.\n# Purpose: Pangrams include every letter of the alphabet, displaying glyph shapes and balance for all lowercase aThe ",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lucida-sans-unicode-regular-2025-11-22t13-06-36-632z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lucida-sans-unicode-regular-2025-11-22t13-06-36-632z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lucida-sans-unicode-regular-2025-11-22t13-06-36-632z/font_12x22.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2025-11-22T13:06:36.632Z",
+      "width": 12,
+      "height": 22
+    },
+    {
       "id": "merriweather-bold-2025-11-15t00-50-15-542z",
       "family": "Merriweather",
       "style": "Bold",
@@ -1070,6 +1085,28 @@
                 "name": "Anonymous"
               },
               "timestamp": "2025-11-15T08:08:55.262Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Lucida Sans Unicode",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "lucida-sans-unicode-regular-2025-11-22t13-06-36-632z",
+              "width": 12,
+              "height": 22,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lucida-sans-unicode-regular-2025-11-22t13-06-36-632z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lucida-sans-unicode-regular-2025-11-22t13-06-36-632z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lucida-sans-unicode-regular-2025-11-22t13-06-36-632z/font_12x22.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2025-11-22T13:06:36.632Z"
             }
           ]
         }
