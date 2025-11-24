@@ -91,6 +91,21 @@
       "height": 20
     },
     {
+      "id": "bitter-light-2025-11-22t20-15-48-202z",
+      "family": "Bitter",
+      "style": "Light",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bitter-light-2025-11-22t20-15-48-202z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bitter-light-2025-11-22t20-15-48-202z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bitter-light-2025-11-22t20-15-48-202z/font_10x18.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2025-11-22T20:15:48.203Z",
+      "width": 10,
+      "height": 18
+    },
+    {
       "id": "bookerly-bold-2025-11-14t09-38-31-352z",
       "family": "Bookerly",
       "style": "Bold",
@@ -149,6 +164,21 @@
       "timestamp": "2025-11-21T23:17:49.622Z",
       "width": 17,
       "height": 34
+    },
+    {
+      "id": "bookerly-regular-2025-11-23t00-00-27-081z",
+      "family": "Bookerly",
+      "style": "Regular",
+      "preview_text": "The quick brown fox jumps over the lazy dog. Sphinx of black quartz, judge my vow. The five boxing wizards jump quickly.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-11-23t00-00-27-081z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-11-23t00-00-27-081z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-11-23t00-00-27-081z/font_29x28.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2025-11-23T00:00:27.085Z",
+      "width": 29,
+      "height": 28
     },
     {
       "id": "chareink-regular-2025-11-14t09-46-19-838z",
@@ -815,6 +845,28 @@
       ]
     },
     {
+      "family": "Bitter",
+      "types": [
+        {
+          "style": "Light",
+          "sizes": [
+            {
+              "id": "bitter-light-2025-11-22t20-15-48-202z",
+              "width": 10,
+              "height": 18,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bitter-light-2025-11-22t20-15-48-202z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bitter-light-2025-11-22t20-15-48-202z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bitter-light-2025-11-22t20-15-48-202z/font_10x18.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2025-11-22T20:15:48.203Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "family": "Bookerly",
       "types": [
         {
@@ -872,6 +924,18 @@
                 "name": "Anonymous"
               },
               "timestamp": "2025-11-21T23:17:49.622Z"
+            },
+            {
+              "id": "bookerly-regular-2025-11-23t00-00-27-081z",
+              "width": 29,
+              "height": 28,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-11-23t00-00-27-081z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-11-23t00-00-27-081z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-11-23t00-00-27-081z/font_29x28.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2025-11-23T00:00:27.085Z"
             }
           ]
         }
