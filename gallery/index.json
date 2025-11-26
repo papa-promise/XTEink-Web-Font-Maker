@@ -691,6 +691,21 @@
       "height": 28
     },
     {
+      "id": "roboto-light-2025-11-25t18-24-42-210z",
+      "family": "Roboto",
+      "style": "Light",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/roboto-light-2025-11-25t18-24-42-210z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/roboto-light-2025-11-25t18-24-42-210z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/roboto-light-2025-11-25t18-24-42-210z/font_24x33.bin",
+      "submitter": {
+        "name": "lenny"
+      },
+      "timestamp": "2025-11-25T18:24:42.210Z",
+      "width": 24,
+      "height": 33
+    },
+    {
       "id": "roboto-slab-extralight-2025-11-14t23-01-34-502z",
       "family": "Roboto Slab",
       "style": "ExtraLight",
@@ -1674,6 +1689,28 @@
                 "name": "RHEL"
               },
               "timestamp": "2025-11-15T13:10:01.571Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Roboto",
+      "types": [
+        {
+          "style": "Light",
+          "sizes": [
+            {
+              "id": "roboto-light-2025-11-25t18-24-42-210z",
+              "width": 24,
+              "height": 33,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/roboto-light-2025-11-25t18-24-42-210z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/roboto-light-2025-11-25t18-24-42-210z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/roboto-light-2025-11-25t18-24-42-210z/font_24x33.bin",
+              "submitter": {
+                "name": "lenny"
+              },
+              "timestamp": "2025-11-25T18:24:42.210Z"
             }
           ]
         }
