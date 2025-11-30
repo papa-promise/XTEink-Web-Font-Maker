@@ -796,6 +796,21 @@
       "height": 31
     },
     {
+      "id": "terminus-bold-2025-11-30t06-40-35-128z",
+      "family": "Terminus",
+      "style": "Bold",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/terminus-bold-2025-11-30t06-40-35-128z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/terminus-bold-2025-11-30t06-40-35-128z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/terminus-bold-2025-11-30t06-40-35-128z/font_10x20.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2025-11-30T06:40:35.128Z",
+      "width": 10,
+      "height": 20
+    },
+    {
       "id": "utopia-std-headline-black-2025-11-24t08-33-15-468z",
       "family": "Utopia Std Headline",
       "style": "Black",
@@ -1843,6 +1858,28 @@
                 "name": "TYLT"
               },
               "timestamp": "2025-11-14T18:23:50.211Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Terminus",
+      "types": [
+        {
+          "style": "Bold",
+          "sizes": [
+            {
+              "id": "terminus-bold-2025-11-30t06-40-35-128z",
+              "width": 10,
+              "height": 20,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/terminus-bold-2025-11-30t06-40-35-128z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/terminus-bold-2025-11-30t06-40-35-128z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/terminus-bold-2025-11-30t06-40-35-128z/font_10x20.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2025-11-30T06:40:35.128Z"
             }
           ]
         }
