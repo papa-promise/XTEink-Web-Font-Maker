@@ -211,6 +211,36 @@
       "height": 21
     },
     {
+      "id": "chareink-regular-2025-12-02t03-33-05-390z",
+      "family": "ChareInk",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/chareink-regular-2025-12-02t03-33-05-390z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/chareink-regular-2025-12-02t03-33-05-390z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/chareink-regular-2025-12-02t03-33-05-390z/font_18x35.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2025-12-02T03:33:05.532Z",
+      "width": 18,
+      "height": 35
+    },
+    {
+      "id": "chareink-regular-2025-12-02t06-36-31-138z",
+      "family": "ChareInk",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/chareink-regular-2025-12-02t06-36-31-138z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/chareink-regular-2025-12-02t06-36-31-138z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/chareink-regular-2025-12-02t06-36-31-138z/font_24x38.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2025-12-02T06:36:31.142Z",
+      "width": 24,
+      "height": 38
+    },
+    {
       "id": "cormorant-garamond-medium-2025-11-17t11-49-49-227z",
       "family": "Cormorant Garamond",
       "style": "Medium",
@@ -1195,6 +1225,30 @@
                 "name": "Anonymous"
               },
               "timestamp": "2025-11-25T07:49:46.379Z"
+            },
+            {
+              "id": "chareink-regular-2025-12-02t03-33-05-390z",
+              "width": 18,
+              "height": 35,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/chareink-regular-2025-12-02t03-33-05-390z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/chareink-regular-2025-12-02t03-33-05-390z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/chareink-regular-2025-12-02t03-33-05-390z/font_18x35.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2025-12-02T03:33:05.532Z"
+            },
+            {
+              "id": "chareink-regular-2025-12-02t06-36-31-138z",
+              "width": 24,
+              "height": 38,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/chareink-regular-2025-12-02t06-36-31-138z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/chareink-regular-2025-12-02t06-36-31-138z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/chareink-regular-2025-12-02t06-36-31-138z/font_24x38.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2025-12-02T06:36:31.142Z"
             }
           ]
         }
