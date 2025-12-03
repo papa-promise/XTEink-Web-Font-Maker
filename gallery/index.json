@@ -781,6 +781,21 @@
       "height": 28
     },
     {
+      "id": "space-mono-bold-2025-12-03t07-33-21-935z",
+      "family": "Space Mono",
+      "style": "Bold",
+      "preview_text": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus.Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. \n\n      Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class apleor.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/space-mono-bold-2025-12-03t07-33-21-935z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/space-mono-bold-2025-12-03t07-33-21-935z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/space-mono-bold-2025-12-03t07-33-21-935z/font_17x36.bin",
+      "submitter": {
+        "name": "Arputhamips"
+      },
+      "timestamp": "2025-12-03T07:33:21.935Z",
+      "width": 17,
+      "height": 36
+    },
+    {
       "id": "space-mono-regular-2025-11-14t18-18-31-661z",
       "family": "Space Mono",
       "style": "Regular",
@@ -809,6 +824,21 @@
       "timestamp": "2025-11-14T18:23:50.211Z",
       "width": 15,
       "height": 31
+    },
+    {
+      "id": "space-mono-regular-2025-12-03t07-26-57-534z",
+      "family": "Space Mono",
+      "style": "Regular",
+      "preview_text": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus.Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. \n\n      Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class apleor.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/space-mono-regular-2025-12-03t07-26-57-534z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/space-mono-regular-2025-12-03t07-26-57-534z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/space-mono-regular-2025-12-03t07-26-57-534z/font_17x33.bin",
+      "submitter": {
+        "name": "Arputhamips"
+      },
+      "timestamp": "2025-12-03T07:26:57.534Z",
+      "width": 17,
+      "height": 33
     },
     {
       "id": "terminus-bold-2025-11-30t06-38-36-784z",
@@ -1930,6 +1960,23 @@
       "family": "Space Mono",
       "types": [
         {
+          "style": "Bold",
+          "sizes": [
+            {
+              "id": "space-mono-bold-2025-12-03t07-33-21-935z",
+              "width": 17,
+              "height": 36,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/space-mono-bold-2025-12-03t07-33-21-935z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/space-mono-bold-2025-12-03t07-33-21-935z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/space-mono-bold-2025-12-03t07-33-21-935z/font_17x36.bin",
+              "submitter": {
+                "name": "Arputhamips"
+              },
+              "timestamp": "2025-12-03T07:33:21.935Z"
+            }
+          ]
+        },
+        {
           "style": "Regular",
           "sizes": [
             {
@@ -1955,6 +2002,18 @@
                 "name": "TYLT"
               },
               "timestamp": "2025-11-14T18:23:50.211Z"
+            },
+            {
+              "id": "space-mono-regular-2025-12-03t07-26-57-534z",
+              "width": 17,
+              "height": 33,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/space-mono-regular-2025-12-03t07-26-57-534z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/space-mono-regular-2025-12-03t07-26-57-534z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/space-mono-regular-2025-12-03t07-26-57-534z/font_17x33.bin",
+              "submitter": {
+                "name": "Arputhamips"
+              },
+              "timestamp": "2025-12-03T07:26:57.534Z"
             }
           ]
         }
