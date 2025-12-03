@@ -481,6 +481,21 @@
       "height": 25
     },
     {
+      "id": "literata-72pt-semibold-italic-2025-12-01t02-49-25-979z",
+      "family": "Literata 72pt",
+      "style": "SemiBold Italic",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-72pt-semibold-italic-2025-12-01t02-49-25-979z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-72pt-semibold-italic-2025-12-01t02-49-25-979z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-72pt-semibold-italic-2025-12-01t02-49-25-979z/font_29x27.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2025-12-01T02:49:25.979Z",
+      "width": 29,
+      "height": 27
+    },
+    {
       "id": "literata-regular-2025-11-14t09-54-13-341z",
       "family": "Literata",
       "style": "Regular",
@@ -1586,6 +1601,28 @@
                 "name": "Anonymous"
               },
               "timestamp": "2025-11-26T00:20:18.616Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Literata 72pt",
+      "types": [
+        {
+          "style": "SemiBold Italic",
+          "sizes": [
+            {
+              "id": "literata-72pt-semibold-italic-2025-12-01t02-49-25-979z",
+              "width": 29,
+              "height": 27,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-72pt-semibold-italic-2025-12-01t02-49-25-979z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-72pt-semibold-italic-2025-12-01t02-49-25-979z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-72pt-semibold-italic-2025-12-01t02-49-25-979z/font_29x27.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2025-12-01T02:49:25.979Z"
             }
           ]
         }
