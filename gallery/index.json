@@ -691,6 +691,36 @@
       "height": 19
     },
     {
+      "id": "monaspace-argon-regular-2025-12-09t06-39-51-630z",
+      "family": "Monaspace Argon",
+      "style": "Regular",
+      "preview_text": "Now is the time for all good men to come to the aid of their country. Fascism has taken hold in the U.S., and as always happens with authoritarian white-supremacist regimes, people are starting to die, and policies are being put in place that will result in more suffering and more death.\n\nImmigrants best represent the spirit of the American Way.\n\nTrans Rights are Human Rights.\n\nSphinx of Black Quartz, Judge my Vow!\n\nABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/monaspace-argon-regular-2025-12-09t06-39-51-630z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/monaspace-argon-regular-2025-12-09t06-39-51-630z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/monaspace-argon-regular-2025-12-09t06-39-51-630z/font_12x26.bin",
+      "submitter": {
+        "name": "XretsiM"
+      },
+      "timestamp": "2025-12-09T06:39:51.630Z",
+      "width": 12,
+      "height": 26
+    },
+    {
+      "id": "monaspace-krypton-regular-2025-12-09t06-45-02-056z",
+      "family": "Monaspace Krypton",
+      "style": "Regular",
+      "preview_text": "Now is the time for all good men to come to the aid of their country. Fascism has taken hold in the U.S., and as always happens with authoritarian white-supremacist regimes, people are starting to die, and policies are being put in place that will result in more suffering and more death.\n\nImmigrants best represent the spirit of the American Way.\n\nTrans Rights are Human Rights.\n\nSphinx of Black Quartz, Judge my Vow!\n\nABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/monaspace-krypton-regular-2025-12-09t06-45-02-056z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/monaspace-krypton-regular-2025-12-09t06-45-02-056z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/monaspace-krypton-regular-2025-12-09t06-45-02-056z/font_10x26.bin",
+      "submitter": {
+        "name": "XretsiM"
+      },
+      "timestamp": "2025-12-09T06:45:02.057Z",
+      "width": 10,
+      "height": 26
+    },
+    {
       "id": "monaspace-neon-regular-2025-12-09t06-47-09-776z",
       "family": "Monaspace Neon",
       "style": "Regular",
@@ -747,6 +777,21 @@
         "name": "XretsiM"
       },
       "timestamp": "2025-12-09T06:55:25.615Z",
+      "width": 12,
+      "height": 26
+    },
+    {
+      "id": "monaspace-xenon-regular-2025-12-09t06-36-45-143z",
+      "family": "Monaspace Xenon",
+      "style": "Regular",
+      "preview_text": "Now is the time for all good men to come to the aid of their country. Fascism has taken hold in the U.S., and as always happens with authoritarian white-supremacist regimes, people are starting to die, and policies are being put in place that will result in more suffering and more death.\n\nImmigrants best represent the spirit of the American Way.\n\nTrans Rights are Human Rights.\n\nSphinx of Black Quartz, Judge my Vow!\n\nABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/monaspace-xenon-regular-2025-12-09t06-36-45-143z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/monaspace-xenon-regular-2025-12-09t06-36-45-143z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/monaspace-xenon-regular-2025-12-09t06-36-45-143z/font_12x26.bin",
+      "submitter": {
+        "name": "XretsiM"
+      },
+      "timestamp": "2025-12-09T06:36:45.144Z",
       "width": 12,
       "height": 26
     },
@@ -2020,6 +2065,50 @@
       ]
     },
     {
+      "family": "Monaspace Argon",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "monaspace-argon-regular-2025-12-09t06-39-51-630z",
+              "width": 12,
+              "height": 26,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/monaspace-argon-regular-2025-12-09t06-39-51-630z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/monaspace-argon-regular-2025-12-09t06-39-51-630z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/monaspace-argon-regular-2025-12-09t06-39-51-630z/font_12x26.bin",
+              "submitter": {
+                "name": "XretsiM"
+              },
+              "timestamp": "2025-12-09T06:39:51.630Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Monaspace Krypton",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "monaspace-krypton-regular-2025-12-09t06-45-02-056z",
+              "width": 10,
+              "height": 26,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/monaspace-krypton-regular-2025-12-09t06-45-02-056z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/monaspace-krypton-regular-2025-12-09t06-45-02-056z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/monaspace-krypton-regular-2025-12-09t06-45-02-056z/font_10x26.bin",
+              "submitter": {
+                "name": "XretsiM"
+              },
+              "timestamp": "2025-12-09T06:45:02.057Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "family": "Monaspace Neon",
       "types": [
         {
@@ -2082,6 +2171,28 @@
                 "name": "XretsiM"
               },
               "timestamp": "2025-12-09T06:55:25.615Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Monaspace Xenon",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "monaspace-xenon-regular-2025-12-09t06-36-45-143z",
+              "width": 12,
+              "height": 26,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/monaspace-xenon-regular-2025-12-09t06-36-45-143z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/monaspace-xenon-regular-2025-12-09t06-36-45-143z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/monaspace-xenon-regular-2025-12-09t06-36-45-143z/font_12x26.bin",
+              "submitter": {
+                "name": "XretsiM"
+              },
+              "timestamp": "2025-12-09T06:36:45.144Z"
             }
           ]
         }
