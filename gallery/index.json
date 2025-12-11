@@ -316,6 +316,21 @@
       "height": 31
     },
     {
+      "id": "drafting-mono-regular-2025-12-09t02-35-38-433z",
+      "family": "Drafting* Mono",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/drafting-mono-regular-2025-12-09t02-35-38-433z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/drafting-mono-regular-2025-12-09t02-35-38-433z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/drafting-mono-regular-2025-12-09t02-35-38-433z/font_14x27.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2025-12-09T02:35:38.433Z",
+      "width": 14,
+      "height": 27
+    },
+    {
       "id": "elms-sans-medium-2025-11-20t09-34-45-143z",
       "family": "Elms Sans",
       "style": "Medium",
@@ -1006,6 +1021,21 @@
       "height": 42
     },
     {
+      "id": "red-hat-text-light-2025-12-08t15-48-59-922z",
+      "family": "Red Hat Text",
+      "style": "Light",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/red-hat-text-light-2025-12-08t15-48-59-922z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/red-hat-text-light-2025-12-08t15-48-59-922z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/red-hat-text-light-2025-12-08t15-48-59-922z/font_24x32.bin",
+      "submitter": {
+        "name": "JohnJayMcKaye"
+      },
+      "timestamp": "2025-12-08T15:48:59.922Z",
+      "width": 24,
+      "height": 32
+    },
+    {
       "id": "red-hat-text-regular-2025-11-15t13-10-01-571z",
       "family": "Red Hat Text",
       "style": "Regular",
@@ -1584,6 +1614,28 @@
                 "name": "InternationalEye2811"
               },
               "timestamp": "2025-11-17T11:16:35.849Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Drafting* Mono",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "drafting-mono-regular-2025-12-09t02-35-38-433z",
+              "width": 14,
+              "height": 27,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/drafting-mono-regular-2025-12-09t02-35-38-433z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/drafting-mono-regular-2025-12-09t02-35-38-433z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/drafting-mono-regular-2025-12-09t02-35-38-433z/font_14x27.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2025-12-09T02:35:38.433Z"
             }
           ]
         }
@@ -2464,6 +2516,23 @@
     {
       "family": "Red Hat Text",
       "types": [
+        {
+          "style": "Light",
+          "sizes": [
+            {
+              "id": "red-hat-text-light-2025-12-08t15-48-59-922z",
+              "width": 24,
+              "height": 32,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/red-hat-text-light-2025-12-08t15-48-59-922z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/red-hat-text-light-2025-12-08t15-48-59-922z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/red-hat-text-light-2025-12-08t15-48-59-922z/font_24x32.bin",
+              "submitter": {
+                "name": "JohnJayMcKaye"
+              },
+              "timestamp": "2025-12-08T15:48:59.922Z"
+            }
+          ]
+        },
         {
           "style": "Regular",
           "sizes": [
