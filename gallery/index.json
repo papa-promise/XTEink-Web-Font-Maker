@@ -646,6 +646,21 @@
       "height": 22
     },
     {
+      "id": "maruburiotf-regular-2025-12-09t05-57-36-141z",
+      "family": "MaruBuriOTF",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/maruburiotf-regular-2025-12-09t05-57-36-141z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/maruburiotf-regular-2025-12-09t05-57-36-141z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/maruburiotf-regular-2025-12-09t05-57-36-141z/font_36x32.bin",
+      "submitter": {
+        "name": "korean-maru buri regular"
+      },
+      "timestamp": "2025-12-09T05:57:36.153Z",
+      "width": 36,
+      "height": 32
+    },
+    {
       "id": "merriweather-bold-2025-11-15t00-50-15-542z",
       "family": "Merriweather",
       "style": "Bold",
@@ -1998,6 +2013,28 @@
                 "name": "Anonymous"
               },
               "timestamp": "2025-11-22T13:06:36.632Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "MaruBuriOTF",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "maruburiotf-regular-2025-12-09t05-57-36-141z",
+              "width": 36,
+              "height": 32,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/maruburiotf-regular-2025-12-09t05-57-36-141z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/maruburiotf-regular-2025-12-09t05-57-36-141z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/maruburiotf-regular-2025-12-09t05-57-36-141z/font_36x32.bin",
+              "submitter": {
+                "name": "korean-maru buri regular"
+              },
+              "timestamp": "2025-12-09T05:57:36.153Z"
             }
           ]
         }
