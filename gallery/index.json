@@ -46,6 +46,21 @@
       "height": 24
     },
     {
+      "id": "atkinson-hyperlegible-mono-regular-2025-12-11t16-45-14-915z",
+      "family": "Atkinson Hyperlegible Mono",
+      "style": "Regular",
+      "preview_text": "Pan0 Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/atkinson-hyperlegible-mono-regular-2025-12-11t16-45-14-915z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/atkinson-hyperlegible-mono-regular-2025-12-11t16-45-14-915z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/atkinson-hyperlegible-mono-regular-2025-12-11t16-45-14-915z/font_19x25.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2025-12-11T16:45:14.919Z",
+      "width": 19,
+      "height": 25
+    },
+    {
       "id": "atkinson-hyperlegible-next-extralight-2025-12-11t16-47-42-377z",
       "family": "Atkinson Hyperlegible Next",
       "style": "ExtraLight",
@@ -1728,6 +1743,28 @@
                 "name": "Anonymous"
               },
               "timestamp": "2025-11-16T16:00:12.198Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Atkinson Hyperlegible Mono",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "atkinson-hyperlegible-mono-regular-2025-12-11t16-45-14-915z",
+              "width": 19,
+              "height": 25,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/atkinson-hyperlegible-mono-regular-2025-12-11t16-45-14-915z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/atkinson-hyperlegible-mono-regular-2025-12-11t16-45-14-915z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/atkinson-hyperlegible-mono-regular-2025-12-11t16-45-14-915z/font_19x25.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2025-12-11T16:45:14.919Z"
             }
           ]
         }
