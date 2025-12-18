@@ -151,6 +151,21 @@
       "height": 20
     },
     {
+      "id": "bookerly-light-2025-12-11t19-31-14-580z",
+      "family": "Bookerly",
+      "style": "Light",
+      "preview_text": "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The q",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-light-2025-12-11t19-31-14-580z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-light-2025-12-11t19-31-14-580z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-light-2025-12-11t19-31-14-580z/font_14x23.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2025-12-11T19:31:14.581Z",
+      "width": 14,
+      "height": 23
+    },
+    {
       "id": "bookerly-regular-2025-11-14t09-40-31-577z",
       "family": "Bookerly",
       "style": "Regular",
@@ -1832,6 +1847,23 @@
                 "name": "Anonymous"
               },
               "timestamp": "2025-11-14T09:38:31.352Z"
+            }
+          ]
+        },
+        {
+          "style": "Light",
+          "sizes": [
+            {
+              "id": "bookerly-light-2025-12-11t19-31-14-580z",
+              "width": 14,
+              "height": 23,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-light-2025-12-11t19-31-14-580z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-light-2025-12-11t19-31-14-580z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-light-2025-12-11t19-31-14-580z/font_14x23.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2025-12-11T19:31:14.581Z"
             }
           ]
         },
