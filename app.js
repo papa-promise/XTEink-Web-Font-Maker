@@ -481,12 +481,6 @@ function renderGlyphToCanvas(char) {
       ) {
         let dx = Math.floor((offScreenCanvas.width - bitmap.width) / 2);
 
-        // Apply charSpacing offset for non-ASCII characters (> 255)
-        // This matches C# logic: if (CharSpacingPx != 0 && charCodePoint > 255)
-        if (charCode > 255 && charSpacing !== 0) {
-          dx += Math.floor(charSpacing / 2);
-        }
-
         if (useOpticalAlign) {
           // For single glyph preview, treat as first char in line (no kerning)
 
@@ -623,12 +617,6 @@ function renderPreviewText() {
           !isWhitespaceOrInvisible(charCode)
         ) {
           let dx = charX + Math.floor((boxWidth - bitmap.width) / 2);
-
-          // Apply charSpacing offset for non-ASCII characters (> 255)
-          // This matches C# logic: if (CharSpacingPx != 0 && charCodePoint > 255)
-          if (charCode > 255 && charSpacing !== 0) {
-            dx += Math.floor(charSpacing / 2);
-          }
 
           if (useOpticalAlign) {
             // For bin file compatibility, treat each glyph as first-in-line
@@ -840,10 +828,6 @@ function renderRealSizePreview() {
         ) {
           let dx = charX + Math.floor((boxWidth - bitmap.width) / 2);
 
-          if (charCode > 255 && charSpacing !== 0) {
-            dx += Math.floor(charSpacing / 2);
-          }
-
           if (useOpticalAlign) {
             dx = charX + getOpticalDx(char, bitmap.width, boxWidth, true);
           }
@@ -1017,14 +1001,8 @@ async function convertFontToBin() {
         // Skip rendering for whitespace characters even if FreeType returns a .notdef glyph
         // This mimics C# GDI+ behavior which doesn't render missing glyphs for whitespace
         if (!isWhitespaceOrInvisible(charCode)) {
-          // Mimic C# logic: center the glyph first
+          // Center the glyph in the box
           let dx = Math.floor((width - glyph.bitmap.width) / 2);
-
-          // Apply charSpacing/2 offset ONLY for non-ASCII characters (charCode > 255)
-          // This matches C#: if (CharSpacingPx != 0 && charCodePoint > 255)
-          if (charCode > 255 && charSpacing !== 0) {
-            dx += Math.floor(charSpacing / 2);
-          }
 
           if (useOpticalAlign) {
             // No kerning context in bin file, treat every char as first
