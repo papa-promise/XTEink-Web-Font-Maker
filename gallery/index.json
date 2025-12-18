@@ -1036,6 +1036,21 @@
       "height": 29
     },
     {
+      "id": "nv-charter-regular-2025-12-18t06-45-23-085z",
+      "family": "NV Charter",
+      "style": "Regular",
+      "preview_text": "Testing testing testing testing",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/nv-charter-regular-2025-12-18t06-45-23-085z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/nv-charter-regular-2025-12-18t06-45-23-085z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/nv-charter-regular-2025-12-18t06-45-23-085z/font_14x22.bin",
+      "submitter": {
+        "name": "Test"
+      },
+      "timestamp": "2025-12-18T06:45:23.086Z",
+      "width": 14,
+      "height": 22
+    },
+    {
       "id": "open-sans-regular-2025-11-22t12-57-20-875z",
       "family": "Open Sans",
       "style": "Regular",
@@ -2690,6 +2705,28 @@
                 "name": "Anonymous"
               },
               "timestamp": "2025-12-06T11:39:26.826Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "NV Charter",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "nv-charter-regular-2025-12-18t06-45-23-085z",
+              "width": 14,
+              "height": 22,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/nv-charter-regular-2025-12-18t06-45-23-085z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/nv-charter-regular-2025-12-18t06-45-23-085z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/nv-charter-regular-2025-12-18t06-45-23-085z/font_14x22.bin",
+              "submitter": {
+                "name": "Test"
+              },
+              "timestamp": "2025-12-18T06:45:23.086Z"
             }
           ]
         }
