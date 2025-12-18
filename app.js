@@ -214,9 +214,24 @@ function measureOptimalFontDimensions(fontSize) {
     return { width: measuredWidth, height: measuredHeight };
   } catch (e) {
     console.warn("Failed to measure optimal font dimensions:", e);
+
     return { width: fontSize, height: fontSize };
   }
 }
+
+function computeBaselineOffset(boxHeight, lineSpacing) {
+  if (boxHeight <= 0) return 0;
+
+  const contentHeight = Math.max(0, boxHeight - lineSpacing);
+  const baseBaseline = Math.round(contentHeight * 0.75);
+  const spacingOffset = Math.floor(lineSpacing / 2);
+  let baseline = baseBaseline + spacingOffset;
+
+  if (baseline < 0) return 0;
+  if (baseline > boxHeight) return boxHeight;
+  return baseline;
+}
+
 const optical_offsets = {
   // ============================================
   // OKRĄGŁE ZNAKI - silne przesunięcie w lewo
@@ -474,16 +489,12 @@ function renderGlyphToCanvas(char) {
 
         if (useOpticalAlign) {
           // For single glyph preview, treat as first char in line (no kerning)
+
           dx = getOpticalDx(char, bitmap.width, boxWidth, true);
         }
 
-        const baseline = Math.round(offScreenCanvas.height * 0.75);
-        let dy = baseline - glyph.bitmap_top;
-
-        // Apply lineSpacing offset (C# does this for all characters)
-        if (lineSpacing !== 0) {
-          dy += Math.floor(lineSpacing / 2);
-        }
+        const baseline = computeBaselineOffset(boxHeight, lineSpacing);
+        const dy = baseline - glyph.bitmap_top;
 
         const sourceData = bitmap.imagedata.data;
         ctx.fillStyle = "#000";
@@ -621,17 +632,16 @@ function renderPreviewText() {
 
           if (useOpticalAlign) {
             // For bin file compatibility, treat each glyph as first-in-line
+
             // (no pseudo-kerning). This ensures the preview matches the .bin output.
+
             dx = charX + getOpticalDx(char, bitmap.width, boxWidth, true);
           }
 
-          const baseline = lineY - boxHeight + Math.round(boxHeight * 0.75);
-          let dy = baseline - glyph.bitmap_top;
-
-          // Apply lineSpacing offset (C# does this for all characters)
-          if (lineSpacing !== 0) {
-            dy += Math.floor(lineSpacing / 2);
-          }
+          const lineTop = lineY - boxHeight;
+          const baselineOffset = computeBaselineOffset(boxHeight, lineSpacing);
+          const baseline = lineTop + baselineOffset;
+          const dy = baseline - glyph.bitmap_top;
 
           const sourceData = bitmap.imagedata.data;
           ctx.fillStyle = "#000";
@@ -838,12 +848,10 @@ function renderRealSizePreview() {
             dx = charX + getOpticalDx(char, bitmap.width, boxWidth, true);
           }
 
-          const baseline = lineY - boxHeight + Math.round(boxHeight * 0.75);
-          let dy = baseline - glyph.bitmap_top;
-
-          if (lineSpacing !== 0) {
-            dy += Math.floor(lineSpacing / 2);
-          }
+          const lineTop = lineY - boxHeight;
+          const baselineOffset = computeBaselineOffset(boxHeight, lineSpacing);
+          const baseline = lineTop + baselineOffset;
+          const dy = baseline - glyph.bitmap_top;
 
           const sourceData = bitmap.imagedata.data;
           ctx.fillStyle = "#000";
@@ -1020,16 +1028,12 @@ async function convertFontToBin() {
 
           if (useOpticalAlign) {
             // No kerning context in bin file, treat every char as first
+
             dx = getOpticalDx(char, glyph.bitmap.width, width, true);
           }
 
-          const baseline = Math.round(height * 0.75);
-          let dy = baseline - glyph.bitmap_top;
-
-          // Apply lineSpacing/2 offset (C# does this for all characters via TranslateTransform)
-          if (lineSpacing !== 0) {
-            dy += Math.floor(lineSpacing / 2);
-          }
+          const baseline = computeBaselineOffset(height, lineSpacing);
+          const dy = baseline - glyph.bitmap_top;
 
           const sourceData = glyph.bitmap.imagedata.data;
           ctx.fillStyle = "#000";
@@ -1612,10 +1616,14 @@ window.verifyBinMatchesPreview = async function (
         glyph.bitmap.imagedata
       ) {
         const bitmap = glyph.bitmap;
+
         let dx = Math.floor((width - bitmap.width) / 2);
+
         if (useOpticalAlign) dx = getOpticalDx(char, bitmap.width, width, true);
-        const baseline = Math.round(height * 0.75);
+
+        const baseline = computeBaselineOffset(height, lineSpacing);
         const dy = baseline - glyph.bitmap_top;
+
         const sourceData = bitmap.imagedata.data;
         ctx.fillStyle = "#000";
         for (let y = 0; y < bitmap.rows; y++) {
