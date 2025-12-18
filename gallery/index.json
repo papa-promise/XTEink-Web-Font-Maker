@@ -436,6 +436,21 @@
       "height": 20
     },
     {
+      "id": "georgia-regular-2025-12-16t20-34-21-588z",
+      "family": "Georgia",
+      "style": "Regular",
+      "preview_text": "Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen Sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem einem gebratene Satzteile in den Mund fliegen. Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte beherrscht – ein geradezu unorthographisch",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/georgia-regular-2025-12-16t20-34-21-588z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/georgia-regular-2025-12-16t20-34-21-588z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/georgia-regular-2025-12-16t20-34-21-588z/font_17x35.bin",
+      "submitter": {
+        "name": "max"
+      },
+      "timestamp": "2025-12-16T20:34:21.588Z",
+      "width": 17,
+      "height": 35
+    },
+    {
       "id": "headlandone-regular-2025-11-16t02-13-45-398z",
       "family": "HeadlandOne",
       "style": "Regular",
@@ -1066,6 +1081,21 @@
       "height": 22
     },
     {
+      "id": "open-sans-bold-2025-12-16t18-55-14-276z",
+      "family": "Open Sans",
+      "style": "Bold",
+      "preview_text": "Ειστε μέσα στα μπάγκ Ελληνικά (Elliniká) σημαίνει \"Ελληνικά\" στη γλώσσα μας, αναφέρεται δηλαδή στην ελληνική γλώσσα ή και σε πράγματα που σχετίζονται με την Ελλάδα, και προέρχεται από το επίθετο \"ελληνικός\". ",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/open-sans-bold-2025-12-16t18-55-14-276z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/open-sans-bold-2025-12-16t18-55-14-276z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/open-sans-bold-2025-12-16t18-55-14-276z/font_15x34.bin",
+      "submitter": {
+        "name": "Greek Font"
+      },
+      "timestamp": "2025-12-16T18:55:14.276Z",
+      "width": 15,
+      "height": 34
+    },
+    {
       "id": "open-sans-regular-2025-11-22t12-57-20-875z",
       "family": "Open Sans",
       "style": "Regular",
@@ -1259,6 +1289,21 @@
       "timestamp": "2025-11-15T13:10:01.571Z",
       "width": 23,
       "height": 28
+    },
+    {
+      "id": "ridibatang-regular-2025-12-17t14-23-32-705z",
+      "family": "RIDIBatang",
+      "style": "Regular",
+      "preview_text": "다람쥐 헌 쳇바퀴에 돌아가는 Hetty에게 물어보살피니 쳇바퀴가 헌 쳇바퀴 같구나\" (모든 자음, 모음 포함). The quick brown fox jumps over a lazy dog. 바람과 함께 사라지다 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 50 100 ~!@#$%^&*() <>?:\"{}|\\ This is an unusual paragraph. I'm curious how quickly you can find out what is so unusual about it? It looks so plain you would think nothing was wrong with it! In fact, nothing is wrong with it! It is unusual though. Study it, and think about it, but you still may not find anythin",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/ridibatang-regular-2025-12-17t14-23-32-705z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/ridibatang-regular-2025-12-17t14-23-32-705z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/ridibatang-regular-2025-12-17t14-23-32-705z/font_37x37.bin",
+      "submitter": {
+        "name": "Korean RidiBatang"
+      },
+      "timestamp": "2025-12-17T14:23:32.705Z",
+      "width": 37,
+      "height": 37
     },
     {
       "id": "roboto-light-2025-11-25t18-24-42-210z",
@@ -1975,6 +2020,28 @@
                 "name": "Anonymous"
               },
               "timestamp": "2025-11-21T14:07:56.775Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Georgia",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "georgia-regular-2025-12-16t20-34-21-588z",
+              "width": 17,
+              "height": 35,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/georgia-regular-2025-12-16t20-34-21-588z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/georgia-regular-2025-12-16t20-34-21-588z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/georgia-regular-2025-12-16t20-34-21-588z/font_17x35.bin",
+              "submitter": {
+                "name": "max"
+              },
+              "timestamp": "2025-12-16T20:34:21.588Z"
             }
           ]
         }
@@ -2798,6 +2865,23 @@
       "family": "Open Sans",
       "types": [
         {
+          "style": "Bold",
+          "sizes": [
+            {
+              "id": "open-sans-bold-2025-12-16t18-55-14-276z",
+              "width": 15,
+              "height": 34,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/open-sans-bold-2025-12-16t18-55-14-276z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/open-sans-bold-2025-12-16t18-55-14-276z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/open-sans-bold-2025-12-16t18-55-14-276z/font_15x34.bin",
+              "submitter": {
+                "name": "Greek Font"
+              },
+              "timestamp": "2025-12-16T18:55:14.276Z"
+            }
+          ]
+        },
+        {
           "style": "Regular",
           "sizes": [
             {
@@ -3020,6 +3104,28 @@
                 "name": "RHEL"
               },
               "timestamp": "2025-11-15T13:10:01.571Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "RIDIBatang",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "ridibatang-regular-2025-12-17t14-23-32-705z",
+              "width": 37,
+              "height": 37,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/ridibatang-regular-2025-12-17t14-23-32-705z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/ridibatang-regular-2025-12-17t14-23-32-705z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/ridibatang-regular-2025-12-17t14-23-32-705z/font_37x37.bin",
+              "submitter": {
+                "name": "Korean RidiBatang"
+              },
+              "timestamp": "2025-12-17T14:23:32.705Z"
             }
           ]
         }
