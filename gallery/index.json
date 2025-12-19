@@ -1,6 +1,51 @@
 {
   "entries": [
     {
+      "id": "abeezee-italic-2025-12-18t20-58-33-226z",
+      "family": "ABeeZee",
+      "style": "Italic",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/abeezee-italic-2025-12-18t20-58-33-226z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/abeezee-italic-2025-12-18t20-58-33-226z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/abeezee-italic-2025-12-18t20-58-33-226z/font_20x21.bin",
+      "submitter": {
+        "name": "meow"
+      },
+      "timestamp": "2025-12-18T20:58:33.227Z",
+      "width": 20,
+      "height": 21
+    },
+    {
+      "id": "abeezee-regular-2025-12-19t01-21-21-778z",
+      "family": "ABeeZee",
+      "style": "Regular",
+      "preview_text": "Das hier ist ein deutscher Text mit allen Umlauten wie ä Ä ö Ö ü Ü und Sonderzeichen ß.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/abeezee-regular-2025-12-19t01-21-21-778z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/abeezee-regular-2025-12-19t01-21-21-778z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/abeezee-regular-2025-12-19t01-21-21-778z/font_13x14.bin",
+      "submitter": {
+        "name": "deutsch"
+      },
+      "timestamp": "2025-12-19T01:21:21.780Z",
+      "width": 13,
+      "height": 14
+    },
+    {
+      "id": "alef-regular-2025-12-18t14-09-41-749z",
+      "family": "Alef",
+      "style": "Regular",
+      "preview_text": "שלום לכולם אני אלעד המבולבל\nאיזה נורמנד",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/alef-regular-2025-12-18t14-09-41-749z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/alef-regular-2025-12-18t14-09-41-749z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/alef-regular-2025-12-18t14-09-41-749z/font_24x29.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2025-12-18T14:09:41.749Z",
+      "width": 24,
+      "height": 29
+    },
+    {
       "id": "alegreya-regular-2025-11-14t09-35-33-625z",
       "family": "Alegreya",
       "style": "Regular",
@@ -1697,6 +1742,67 @@
     }
   ],
   "tree": [
+    {
+      "family": "ABeeZee",
+      "types": [
+        {
+          "style": "Italic",
+          "sizes": [
+            {
+              "id": "abeezee-italic-2025-12-18t20-58-33-226z",
+              "width": 20,
+              "height": 21,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/abeezee-italic-2025-12-18t20-58-33-226z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/abeezee-italic-2025-12-18t20-58-33-226z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/abeezee-italic-2025-12-18t20-58-33-226z/font_20x21.bin",
+              "submitter": {
+                "name": "meow"
+              },
+              "timestamp": "2025-12-18T20:58:33.227Z"
+            }
+          ]
+        },
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "abeezee-regular-2025-12-19t01-21-21-778z",
+              "width": 13,
+              "height": 14,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/abeezee-regular-2025-12-19t01-21-21-778z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/abeezee-regular-2025-12-19t01-21-21-778z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/abeezee-regular-2025-12-19t01-21-21-778z/font_13x14.bin",
+              "submitter": {
+                "name": "deutsch"
+              },
+              "timestamp": "2025-12-19T01:21:21.780Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Alef",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "alef-regular-2025-12-18t14-09-41-749z",
+              "width": 24,
+              "height": 29,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/alef-regular-2025-12-18t14-09-41-749z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/alef-regular-2025-12-18t14-09-41-749z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/alef-regular-2025-12-18t14-09-41-749z/font_24x29.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2025-12-18T14:09:41.749Z"
+            }
+          ]
+        }
+      ]
+    },
     {
       "family": "Alegreya",
       "types": [
