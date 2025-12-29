@@ -361,6 +361,21 @@
       "height": 19
     },
     {
+      "id": "bookerly-regular-2025-12-23t02-38-11-476z",
+      "family": "Bookerly",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-12-23t02-38-11-476z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-12-23t02-38-11-476z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-12-23t02-38-11-476z/font_38x35.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2025-12-23T02:38:11.476Z",
+      "width": 38,
+      "height": 35
+    },
+    {
       "id": "chareink-regular-2025-11-14t09-46-19-838z",
       "family": "ChareInk",
       "style": "Regular",
@@ -899,6 +914,21 @@
       "timestamp": "2025-12-12T08:16:43.385Z",
       "width": 13,
       "height": 19
+    },
+    {
+      "id": "literata-regular-2025-12-26t07-10-05-676z",
+      "family": "Literata",
+      "style": "Regular",
+      "preview_text": "11\n\nYou hit bottom when you stop digging.\n\n—the Big Book\n\nBrighton Beach\n\nNow\n\nWe make our way down the boardwalk, the shuttered attractions of Coney Island disappearing into the night sky behind us. The unencumbered wind hurtling off the water bites and claws at our skin.\n\nWe could have walked down Surf Avenue, gotten a little shelter from the weather, but I think Booker and Valencia feel the same way I do: the cold air is clarifying, and we’re all processing the weight of what could ",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2025-12-26t07-10-05-676z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2025-12-26t07-10-05-676z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2025-12-26t07-10-05-676z/font_22x35.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2025-12-26T07:10:05.676Z",
+      "width": 22,
+      "height": 35
     },
     {
       "id": "literata-tt-display-extralight-2025-12-06t10-57-38-216z",
@@ -2205,6 +2235,18 @@
                 "name": "Bookerly"
               },
               "timestamp": "2025-12-10T14:31:13.715Z"
+            },
+            {
+              "id": "bookerly-regular-2025-12-23t02-38-11-476z",
+              "width": 38,
+              "height": 35,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-12-23t02-38-11-476z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-12-23t02-38-11-476z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-regular-2025-12-23t02-38-11-476z/font_38x35.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2025-12-23T02:38:11.476Z"
             }
           ]
         }
@@ -2872,6 +2914,18 @@
                 "name": "Panda"
               },
               "timestamp": "2025-12-12T08:16:43.385Z"
+            },
+            {
+              "id": "literata-regular-2025-12-26t07-10-05-676z",
+              "width": 22,
+              "height": 35,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2025-12-26t07-10-05-676z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2025-12-26t07-10-05-676z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2025-12-26t07-10-05-676z/font_22x35.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2025-12-26T07:10:05.676Z"
             }
           ]
         }
