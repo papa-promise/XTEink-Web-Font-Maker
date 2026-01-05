@@ -1621,6 +1621,21 @@
       "height": 34
     },
     {
+      "id": "pt-sans-regular-2025-12-31t02-03-26-941z",
+      "family": "PT Sans",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/pt-sans-regular-2025-12-31t02-03-26-941z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/pt-sans-regular-2025-12-31t02-03-26-941z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/pt-sans-regular-2025-12-31t02-03-26-941z/font_12x22.bin",
+      "submitter": {
+        "name": "Sans"
+      },
+      "timestamp": "2025-12-31T02:03:26.942Z",
+      "width": 12,
+      "height": 22
+    },
+    {
       "id": "red-hat-text-light-2025-12-08t15-48-59-922z",
       "family": "Red Hat Text",
       "style": "Light",
@@ -1664,6 +1679,21 @@
       "timestamp": "2025-12-17T14:23:32.705Z",
       "width": 37,
       "height": 37
+    },
+    {
+      "id": "ridibatang-regular-2025-12-31t05-16-51-785z",
+      "family": "RIDIBatang",
+      "style": "Regular",
+      "preview_text": "전 코모도의 퀴스크 울트라스 오디오, AC 피니버스 우르나 알리케. 프린지야 레오 피니버스에 있는 서스펜디드 파레트라 리베로 세드 입숨 전정. 에티암 사기티스 비타 텔루스 에겟 다피버스. 널라 사피엔 오르치, 볼루트파트 벨 그라비다세드, 다피버스 아 터피스. 펠렌테스크 서식지 모르비 트리스틱 세넥투스 et netus et malsuada fames ac 터피스 에게스타스. 모르비 시트 아멧 비벤둠 메투스. 사피엔 안테, 풀비나르 에로스 침전지, 펠렌테스크 틴시드 마그나. 서스펜티스 포텐티. 세드 라쿠스 네크 수시핏. 정수는 그냥 수도꼭지 안테 오터 푸기아트.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/ridibatang-regular-2025-12-31t05-16-51-785z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/ridibatang-regular-2025-12-31t05-16-51-785z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/ridibatang-regular-2025-12-31t05-16-51-785z/font_33x35.bin",
+      "submitter": {
+        "name": "RIDIbatang34"
+      },
+      "timestamp": "2025-12-31T05:16:51.785Z",
+      "width": 33,
+      "height": 35
     },
     {
       "id": "roboto-light-2025-11-25t18-24-42-210z",
@@ -3899,6 +3929,28 @@
       ]
     },
     {
+      "family": "PT Sans",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "pt-sans-regular-2025-12-31t02-03-26-941z",
+              "width": 12,
+              "height": 22,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/pt-sans-regular-2025-12-31t02-03-26-941z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/pt-sans-regular-2025-12-31t02-03-26-941z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/pt-sans-regular-2025-12-31t02-03-26-941z/font_12x22.bin",
+              "submitter": {
+                "name": "Sans"
+              },
+              "timestamp": "2025-12-31T02:03:26.942Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "family": "Red Hat Text",
       "types": [
         {
@@ -3954,6 +4006,18 @@
                 "name": "Korean RidiBatang"
               },
               "timestamp": "2025-12-17T14:23:32.705Z"
+            },
+            {
+              "id": "ridibatang-regular-2025-12-31t05-16-51-785z",
+              "width": 33,
+              "height": 35,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/ridibatang-regular-2025-12-31t05-16-51-785z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/ridibatang-regular-2025-12-31t05-16-51-785z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/ridibatang-regular-2025-12-31t05-16-51-785z/font_33x35.bin",
+              "submitter": {
+                "name": "RIDIbatang34"
+              },
+              "timestamp": "2025-12-31T05:16:51.785Z"
             }
           ]
         }
