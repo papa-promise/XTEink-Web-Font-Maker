@@ -61,6 +61,21 @@
       "height": 23
     },
     {
+      "id": "alibaba-sans-regular-2026-01-06t10-51-59-656z",
+      "family": "Alibaba Sans",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/alibaba-sans-regular-2026-01-06t10-51-59-656z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/alibaba-sans-regular-2026-01-06t10-51-59-656z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/alibaba-sans-regular-2026-01-06t10-51-59-656z/font_23x25.bin",
+      "submitter": {
+        "name": "Bass"
+      },
+      "timestamp": "2026-01-06T10:51:59.656Z",
+      "width": 23,
+      "height": 25
+    },
+    {
       "id": "arial-regular-2025-11-14t09-25-14-648z",
       "family": "Arial",
       "style": "Regular",
@@ -494,6 +509,21 @@
       "timestamp": "2025-12-02T06:36:31.142Z",
       "width": 24,
       "height": 38
+    },
+    {
+      "id": "comic-code-regular-2026-01-08t13-47-49-116z",
+      "family": "Comic Code",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/comic-code-regular-2026-01-08t13-47-49-116z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/comic-code-regular-2026-01-08t13-47-49-116z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/comic-code-regular-2026-01-08t13-47-49-116z/font_15x25.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2026-01-08T13:47:49.117Z",
+      "width": 15,
+      "height": 25
     },
     {
       "id": "cormorant-garamond-medium-2025-11-17t11-49-49-227z",
@@ -989,6 +1019,21 @@
       "timestamp": "2025-12-26T07:10:05.676Z",
       "width": 22,
       "height": 35
+    },
+    {
+      "id": "literata-regular-2026-01-07t04-16-25-527z",
+      "family": "Literata",
+      "style": "Regular",
+      "preview_text": "After a year of slavery in the Salt Mines of Endovier, Celaena Sardothien was accustomed to being escorted everywhere in shackles and at sword-point. Most of the thousands of slaves in Endovier received similar treatment—though an extra half-dozen guards always walked Celaena to and from the mines. That was expected by Adarlan’s most notorious assassin. What she did not usually expect, however, was a hooded man in black at her side—as there was now.\n\nHe gripped her arm as he led her through the ",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2026-01-07t04-16-25-527z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2026-01-07t04-16-25-527z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2026-01-07t04-16-25-527z/font_14x23.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2026-01-07T04:16:25.534Z",
+      "width": 14,
+      "height": 23
     },
     {
       "id": "literata-tt-display-extralight-2025-12-06t10-57-38-216z",
@@ -2021,6 +2066,28 @@
       ]
     },
     {
+      "family": "Alibaba Sans",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "alibaba-sans-regular-2026-01-06t10-51-59-656z",
+              "width": 23,
+              "height": 25,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/alibaba-sans-regular-2026-01-06t10-51-59-656z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/alibaba-sans-regular-2026-01-06t10-51-59-656z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/alibaba-sans-regular-2026-01-06t10-51-59-656z/font_23x25.bin",
+              "submitter": {
+                "name": "Bass"
+              },
+              "timestamp": "2026-01-06T10:51:59.656Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "family": "Arial",
       "types": [
         {
@@ -2498,6 +2565,28 @@
                 "name": "Anonymous"
               },
               "timestamp": "2025-12-02T06:36:31.142Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Comic Code",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "comic-code-regular-2026-01-08t13-47-49-116z",
+              "width": 15,
+              "height": 25,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/comic-code-regular-2026-01-08t13-47-49-116z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/comic-code-regular-2026-01-08t13-47-49-116z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/comic-code-regular-2026-01-08t13-47-49-116z/font_15x25.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2026-01-08T13:47:49.117Z"
             }
           ]
         }
@@ -3124,6 +3213,18 @@
                 "name": "Anonymous"
               },
               "timestamp": "2025-12-26T07:10:05.676Z"
+            },
+            {
+              "id": "literata-regular-2026-01-07t04-16-25-527z",
+              "width": 14,
+              "height": 23,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2026-01-07t04-16-25-527z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2026-01-07t04-16-25-527z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2026-01-07t04-16-25-527z/font_14x23.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2026-01-07T04:16:25.534Z"
             }
           ]
         }
