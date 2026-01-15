@@ -151,6 +151,21 @@
       "height": 26
     },
     {
+      "id": "avenir-next-regular-2026-01-11t12-15-41-720z",
+      "family": "Avenir Next",
+      "style": "Regular",
+      "preview_text": "É um facto estabelecido de que um leitor é distraído pelo conteúdo legível de uma página quando analisa a sua mancha gráfica. Logo, o uso de Lorem Ipsum leva a uma distribuição mais ou menos normal de letras, ao contrário do uso de \"Conteúdo aqui, conteúdo aqui\", tornando-o texto legível. Muitas ferramentas de publicação electrónica e editores de páginas web usam actualmente o Lorem Ipsum como o modelo de texto usado por omissão, e uma pesquisa por \"lorem ipsum\" irá encontrar muitos websites ain",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/avenir-next-regular-2026-01-11t12-15-41-720z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/avenir-next-regular-2026-01-11t12-15-41-720z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/avenir-next-regular-2026-01-11t12-15-41-720z/font_8x19.bin",
+      "submitter": {
+        "name": "Avenir Opt"
+      },
+      "timestamp": "2026-01-11T12:15:41.720Z",
+      "width": 8,
+      "height": 19
+    },
+    {
       "id": "averia-libre-bold-2025-12-21t17-37-30-408z",
       "family": "Averia Libre",
       "style": "Bold",
@@ -1096,6 +1111,21 @@
       "height": 23
     },
     {
+      "id": "literata-regular-2026-01-08t23-20-37-959z",
+      "family": "Literata",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2026-01-08t23-20-37-959z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2026-01-08t23-20-37-959z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2026-01-08t23-20-37-959z/font_30x27.bin",
+      "submitter": {
+        "name": "jotaro kujo"
+      },
+      "timestamp": "2026-01-08T23:20:37.959Z",
+      "width": 30,
+      "height": 27
+    },
+    {
       "id": "literata-tt-display-extralight-2025-12-06t10-57-38-216z",
       "family": "Literata TT Display",
       "style": "Extralight",
@@ -1711,6 +1741,21 @@
       "height": 17
     },
     {
+      "id": "pk-pi-mai-regular-2026-01-10t16-32-11-090z",
+      "family": "PK Pi Mai",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/pk-pi-mai-regular-2026-01-10t16-32-11-090z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/pk-pi-mai-regular-2026-01-10t16-32-11-090z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/pk-pi-mai-regular-2026-01-10t16-32-11-090z/font_20x30.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2026-01-10T16:32:11.102Z",
+      "width": 20,
+      "height": 30
+    },
+    {
       "id": "playfair-display-regular-2025-12-02t02-21-33-630z",
       "family": "Playfair Display",
       "style": "Regular",
@@ -2307,6 +2352,28 @@
                 "name": "Anonymous"
               },
               "timestamp": "2025-12-11T16:42:13.885Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Avenir Next",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "avenir-next-regular-2026-01-11t12-15-41-720z",
+              "width": 8,
+              "height": 19,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/avenir-next-regular-2026-01-11t12-15-41-720z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/avenir-next-regular-2026-01-11t12-15-41-720z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/avenir-next-regular-2026-01-11t12-15-41-720z/font_8x19.bin",
+              "submitter": {
+                "name": "Avenir Opt"
+              },
+              "timestamp": "2026-01-11T12:15:41.720Z"
             }
           ]
         }
@@ -3418,6 +3485,18 @@
                 "name": "Anonymous"
               },
               "timestamp": "2026-01-07T04:16:25.534Z"
+            },
+            {
+              "id": "literata-regular-2026-01-08t23-20-37-959z",
+              "width": 30,
+              "height": 27,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2026-01-08t23-20-37-959z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2026-01-08t23-20-37-959z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/literata-regular-2026-01-08t23-20-37-959z/font_30x27.bin",
+              "submitter": {
+                "name": "jotaro kujo"
+              },
+              "timestamp": "2026-01-08T23:20:37.959Z"
             }
           ]
         }
@@ -4190,6 +4269,28 @@
                 "name": "Anonymous"
               },
               "timestamp": "2025-12-18T08:24:21.249Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "PK Pi Mai",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "pk-pi-mai-regular-2026-01-10t16-32-11-090z",
+              "width": 20,
+              "height": 30,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/pk-pi-mai-regular-2026-01-10t16-32-11-090z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/pk-pi-mai-regular-2026-01-10t16-32-11-090z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/pk-pi-mai-regular-2026-01-10t16-32-11-090z/font_20x30.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2026-01-10T16:32:11.102Z"
             }
           ]
         }
