@@ -316,6 +316,21 @@
       "height": 23
     },
     {
+      "id": "bookerly-light-2026-01-17t19-49-18-385z",
+      "family": "Bookerly",
+      "style": "Light",
+      "preview_text": "Bookerly font family designed by Dalton Maag Ltd has a total of 12 different styles. You can download the Bookerly font to your computer or use it on your website. Please research the license information before using it.\nUnicode Blocks\n\nBasic Latin, Latin-1 Supplement, Latin Extended-A, Greek Extended, Specials\nSupported Languages\n\nAfrikaans, Albanian, Azerbaijani, Belarusian, Bosnian, Bulgarian, Catalan, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, German, Greek, Hungaria",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-light-2026-01-17t19-49-18-385z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-light-2026-01-17t19-49-18-385z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-light-2026-01-17t19-49-18-385z/font_12x19.bin",
+      "submitter": {
+        "name": "minan"
+      },
+      "timestamp": "2026-01-17T19:49:18.386Z",
+      "width": 12,
+      "height": 19
+    },
+    {
       "id": "bookerly-regular-2025-11-14t09-40-31-577z",
       "family": "Bookerly",
       "style": "Regular",
@@ -2659,6 +2674,18 @@
                 "name": "Anonymous"
               },
               "timestamp": "2025-12-11T19:31:14.581Z"
+            },
+            {
+              "id": "bookerly-light-2026-01-17t19-49-18-385z",
+              "width": 12,
+              "height": 19,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-light-2026-01-17t19-49-18-385z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-light-2026-01-17t19-49-18-385z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-light-2026-01-17t19-49-18-385z/font_12x19.bin",
+              "submitter": {
+                "name": "minan"
+              },
+              "timestamp": "2026-01-17T19:49:18.386Z"
             }
           ]
         },
