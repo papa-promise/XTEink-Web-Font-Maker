@@ -241,6 +241,21 @@
       "height": 25
     },
     {
+      "id": "avenir-lt-std-45-book-2026-02-05t19-05-37-723z",
+      "family": "Avenir LT Std",
+      "style": "45 Book",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/avenir-lt-std-45-book-2026-02-05t19-05-37-723z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/avenir-lt-std-45-book-2026-02-05t19-05-37-723z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/avenir-lt-std-45-book-2026-02-05t19-05-37-723z/font_25x25.bin",
+      "submitter": {
+        "name": "Pussy Destroyer"
+      },
+      "timestamp": "2026-02-05T19:05:37.723Z",
+      "width": 25,
+      "height": 25
+    },
+    {
       "id": "avenir-next-regular-2026-01-11t12-15-41-720z",
       "family": "Avenir Next",
       "style": "Regular",
@@ -719,6 +734,21 @@
       "timestamp": "2026-01-29T12:29:17.999Z",
       "width": 14,
       "height": 22
+    },
+    {
+      "id": "courier-prime-regular-2026-02-05t21-06-12-153z",
+      "family": "Courier Prime",
+      "style": "Regular",
+      "preview_text": "The master is a person of an excellent disposition, and is remarkable in the ship for his gentleness, and the mildness of his discipline. He is, indeed, of so amiable a nature, that he will not hunt (a favourite, and almost the only amusement here), because he cannot endure to spill blood. He is, moreover, heroically generous. Some years ago he loved a young Russian lady, of moderate ",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/courier-prime-regular-2026-02-05t21-06-12-153z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/courier-prime-regular-2026-02-05t21-06-12-153z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/courier-prime-regular-2026-02-05t21-06-12-153z/font_10x17.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2026-02-05T21:06:12.153Z",
+      "width": 10,
+      "height": 17
     },
     {
       "id": "cyberpunkwaifus-medium-2025-11-17t11-16-35-842z",
@@ -3020,6 +3050,28 @@
       ]
     },
     {
+      "family": "Avenir LT Std",
+      "types": [
+        {
+          "style": "45 Book",
+          "sizes": [
+            {
+              "id": "avenir-lt-std-45-book-2026-02-05t19-05-37-723z",
+              "width": 25,
+              "height": 25,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/avenir-lt-std-45-book-2026-02-05t19-05-37-723z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/avenir-lt-std-45-book-2026-02-05t19-05-37-723z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/avenir-lt-std-45-book-2026-02-05t19-05-37-723z/font_25x25.bin",
+              "submitter": {
+                "name": "Pussy Destroyer"
+              },
+              "timestamp": "2026-02-05T19:05:37.723Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "family": "Avenir Next",
       "types": [
         {
@@ -3548,6 +3600,18 @@
                 "name": "Alex"
               },
               "timestamp": "2026-01-29T12:29:17.999Z"
+            },
+            {
+              "id": "courier-prime-regular-2026-02-05t21-06-12-153z",
+              "width": 10,
+              "height": 17,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/courier-prime-regular-2026-02-05t21-06-12-153z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/courier-prime-regular-2026-02-05t21-06-12-153z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/courier-prime-regular-2026-02-05t21-06-12-153z/font_10x17.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2026-02-05T21:06:12.153Z"
             }
           ]
         }
