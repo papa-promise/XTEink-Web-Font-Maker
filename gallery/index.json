@@ -1171,6 +1171,21 @@
       "height": 23
     },
     {
+      "id": "lato-heavy-2026-02-11t09-40-30-216z",
+      "family": "Lato",
+      "style": "Heavy",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lato-heavy-2026-02-11t09-40-30-216z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lato-heavy-2026-02-11t09-40-30-216z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lato-heavy-2026-02-11t09-40-30-216z/font_15x23.bin",
+      "submitter": {
+        "name": "nnn"
+      },
+      "timestamp": "2026-02-11T09:40:30.216Z",
+      "width": 15,
+      "height": 23
+    },
+    {
       "id": "lexend-regular-2025-12-05t23-30-44-035z",
       "family": "Lexend",
       "style": "Regular",
@@ -4248,6 +4263,23 @@
                 "name": "Lakafior"
               },
               "timestamp": "2025-11-14T09:51:14.936Z"
+            }
+          ]
+        },
+        {
+          "style": "Heavy",
+          "sizes": [
+            {
+              "id": "lato-heavy-2026-02-11t09-40-30-216z",
+              "width": 15,
+              "height": 23,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lato-heavy-2026-02-11t09-40-30-216z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lato-heavy-2026-02-11t09-40-30-216z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/lato-heavy-2026-02-11t09-40-30-216z/font_15x23.bin",
+              "submitter": {
+                "name": "nnn"
+              },
+              "timestamp": "2026-02-11T09:40:30.216Z"
             }
           ]
         }
