@@ -1636,6 +1636,21 @@
       "height": 17
     },
     {
+      "id": "merriweather-24pt-medium-2026-02-11t09-16-17-171z",
+      "family": "Merriweather 24pt",
+      "style": "Medium",
+      "preview_text": "Благодарности \n      \n      Снова, в который раз, я должен поблагодарить моего замечательного агента Джошуа Билмеса и столь же удивительного редактора Моше Федера. Они проделали потрясающую работу над этой книгой, и я горжусь тем, что имел возможность сотрудничать с ними.\n      Также не могу не поблагодарить моих неутомимых помощников, постоянно мне помогавших и поощрявших меня. Это Алан Лэйтон, Джанет Лэйтон, Кейлин Зобелл, Нэйт Хэтфилд, Брюс Кандик, Кимбал Ларсен и Эмили Скоруп. И первых чита",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/merriweather-24pt-medium-2026-02-11t09-16-17-171z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/merriweather-24pt-medium-2026-02-11t09-16-17-171z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/merriweather-24pt-medium-2026-02-11t09-16-17-171z/font_23x37.bin",
+      "submitter": {
+        "name": "Merriweather (RU)"
+      },
+      "timestamp": "2026-02-11T09:16:17.172Z",
+      "width": 23,
+      "height": 37
+    },
+    {
       "id": "merriweather-bold-2025-11-15t00-50-15-542z",
       "family": "Merriweather",
       "style": "Bold",
@@ -4735,6 +4750,28 @@
                 "name": "Anonymous"
               },
               "timestamp": "2026-01-24T16:47:07.928Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Merriweather 24pt",
+      "types": [
+        {
+          "style": "Medium",
+          "sizes": [
+            {
+              "id": "merriweather-24pt-medium-2026-02-11t09-16-17-171z",
+              "width": 23,
+              "height": 37,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/merriweather-24pt-medium-2026-02-11t09-16-17-171z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/merriweather-24pt-medium-2026-02-11t09-16-17-171z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/merriweather-24pt-medium-2026-02-11t09-16-17-171z/font_23x37.bin",
+              "submitter": {
+                "name": "Merriweather (RU)"
+              },
+              "timestamp": "2026-02-11T09:16:17.172Z"
             }
           ]
         }
