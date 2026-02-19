@@ -436,6 +436,21 @@
       "height": 19
     },
     {
+      "id": "bookerly-light-2026-02-17t13-06-02-322z",
+      "family": "Bookerly",
+      "style": "Light",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-light-2026-02-17t13-06-02-322z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-light-2026-02-17t13-06-02-322z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-light-2026-02-17t13-06-02-322z/font_22x21.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2026-02-17T13:06:02.323Z",
+      "width": 22,
+      "height": 21
+    },
+    {
       "id": "bookerly-regular-2025-11-14t09-40-31-577z",
       "family": "Bookerly",
       "style": "Regular",
@@ -2626,6 +2641,21 @@
       "height": 33
     },
     {
+      "id": "tahoma-regular-2026-02-17t12-44-41-728z",
+      "family": "Tahoma",
+      "style": "Regular",
+      "preview_text": "Pan Deklewski, fabrykant powozów, który majątek i stanowisko zawdzięczał wytrwałej pracy w jednym fachu, tudzież radca Węgrowicz, który od dwudziestu lat był członkiem-opiekunem jednego i tego samego Towarzystwa Dobroczynności, znali S. Wokulskiego najdawniej i najgłośniej przepowiadali mu ruinę. — Na ruinie bowiem i niewypłacalności — mówił pan Deklewski — musi skończyć człowiek, który nie pilnuje się jednego fachu i nie umie uszanować darów łaskawej fortuny.",
+      "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/tahoma-regular-2026-02-17t12-44-41-728z/preview_thumb.png",
+      "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/tahoma-regular-2026-02-17t12-44-41-728z/preview.png",
+      "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/tahoma-regular-2026-02-17t12-44-41-728z/font_25x28.bin",
+      "submitter": {
+        "name": "Anonymous"
+      },
+      "timestamp": "2026-02-17T12:44:41.728Z",
+      "width": 25,
+      "height": 28
+    },
+    {
       "id": "terminus-bold-2025-11-30t06-38-36-784z",
       "family": "Terminus",
       "style": "Bold",
@@ -3370,6 +3400,18 @@
                 "name": "minan"
               },
               "timestamp": "2026-01-17T19:49:18.386Z"
+            },
+            {
+              "id": "bookerly-light-2026-02-17t13-06-02-322z",
+              "width": 22,
+              "height": 21,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-light-2026-02-17t13-06-02-322z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-light-2026-02-17t13-06-02-322z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/bookerly-light-2026-02-17t13-06-02-322z/font_22x21.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2026-02-17T13:06:02.323Z"
             }
           ]
         },
@@ -5997,6 +6039,28 @@
                 "name": "Arputhamips"
               },
               "timestamp": "2025-12-03T07:26:57.534Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Tahoma",
+      "types": [
+        {
+          "style": "Regular",
+          "sizes": [
+            {
+              "id": "tahoma-regular-2026-02-17t12-44-41-728z",
+              "width": 25,
+              "height": 28,
+              "preview_thumb": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/tahoma-regular-2026-02-17t12-44-41-728z/preview_thumb.png",
+              "preview": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/tahoma-regular-2026-02-17t12-44-41-728z/preview.png",
+              "bin": "https://raw.githubusercontent.com/lakafior/XTEink-Web-Font-Maker/main/gallery/tahoma-regular-2026-02-17t12-44-41-728z/font_25x28.bin",
+              "submitter": {
+                "name": "Anonymous"
+              },
+              "timestamp": "2026-02-17T12:44:41.728Z"
             }
           ]
         }
